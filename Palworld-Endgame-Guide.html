@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PALEXPLORER · Guía Endgame Palworld 1.0</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --abyss:#050507;
+    --carbon:#101010;
+    --carbon2:#16161a;
+    --border:#3d3a39;
+    --border-soft:#2a2826;
+    --green:#00d992;
+    --green-mint:#2fd6a1;
+    --green-deep:#10b981;
+    --purple:#818cf8;
+    --amber:#ffba00;
+    --coral:#fb565b;
+    --teal:#4cb3d4;
+    --text:#f2f2f2;
+    --parch:#b8b3b0;
+    --steel:#8b949e;
+    --shadow-amb:rgba(92,88,85,0.2) 0 0 15px;
+    --shadow-drama:rgba(0,0,0,0.7) 0 20px 60px, rgba(148,163,184,0.1) 0 0 0 1px inset;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:
+      radial-gradient(900px 500px at 80% -5%, rgba(0,217,146,0.10), transparent 60%),
+      radial-gradient(700px 500px at 0% 100%, rgba(129,140,248,0.08), transparent 60%),
+      var(--abyss);
+    color:var(--text);
+    font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+  }
+  ::selection{background:var(--green);color:#050507}
+  a{color:var(--green-mint);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .mono{font-family:'JetBrains Mono',ui-monospace,Menlo,monospace}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+
+  /* ---------- NAV ---------- */
+  nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(5,5,7,0.86);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--border);
+  }
+  .nav-in{display:flex;align-items:center;gap:22px;height:62px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.5px}
+  .logo .bolt{
+    width:26px;height:26px;border-radius:6px;
+    background:var(--green);
+    box-shadow:0 0 2px var(--green),0 0 10px rgba(0,217,146,.7);
+    animation:pulse 2.6s ease-in-out infinite;
+    display:grid;place-items:center;color:#050507;font-size:16px;font-weight:900;
+  }
+  @keyframes pulse{0%,100%{box-shadow:0 0 2px var(--green),0 0 8px rgba(0,217,146,.6)}50%{box-shadow:0 0 4px var(--green),0 0 16px rgba(0,217,146,.95)}}
+  .logo b{color:var(--green)}
+  .nav-links{margin-left:auto;display:flex;gap:18px;font-size:14px}
+  .nav-links a{color:var(--parch)}
+  .nav-links a:hover{color:var(--green)}
+  @media(max-width:780px){.nav-links{display:none}}
+
+  /* ---------- HERO ---------- */
+  .hero{padding:74px 0 50px;text-align:center;position:relative}
+  .kicker{
+    display:inline-block;font-family:'JetBrains Mono',monospace;font-size:13px;
+    letter-spacing:3px;text-transform:uppercase;color:var(--green-mint);
+    border:1px solid var(--border);border-radius:999px;padding:6px 16px;margin-bottom:22px;
+  }
+  .hero h1{
+    font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
+    font-size:clamp(38px,6vw,68px);font-weight:400;line-height:1.02;letter-spacing:-1.5px;
+    margin-bottom:16px;
+  }
+  .hero h1 b{color:var(--green);font-weight:700;text-shadow:0 0 22px rgba(0,217,146,.55)}
+  .hero p{max-width:680px;margin:0 auto;color:var(--parch);font-size:17px}
+
+  /* ---------- LEVEL TRACKER (foco en nivel 44) ---------- */
+  .tracker{
+    margin:46px auto 0;max-width:980px;
+    background:var(--carbon);border:1px solid var(--border);border-radius:14px;
+    padding:28px 30px;box-shadow:var(--shadow-amb);
+  }
+  .tracker .top{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+  .tracker .lv{font-family:'JetBrains Mono',monospace}
+  .tracker .lv .now{font-size:46px;font-weight:700;color:var(--green);line-height:1}
+  .tracker .lv .lab{font-size:13px;color:var(--steel);letter-spacing:1px;text-transform:uppercase}
+  .tracker .goal{text-align:right}
+  .tracker .goal .g{font-size:30px;font-weight:700;color:var(--text)}
+  .tracker .goal .lab{font-size:12px;color:var(--steel);text-transform:uppercase;letter-spacing:1px}
+  .bar{height:14px;background:#0b0b0d;border:1px solid var(--border);border-radius:999px;overflow:hidden;position:relative}
+  .bar .fill{height:100%;width:55%;background:linear-gradient(90deg,var(--green-deep),var(--green));box-shadow:0 0 14px rgba(0,217,146,.6);border-radius:999px;transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+  .bar .you{position:absolute;top:-5px;left:55%;width:2px;height:24px;background:var(--amber);box-shadow:0 0 8px var(--amber)}
+  .bar .you::after{content:"TÚ";position:absolute;top:-18px;left:-13px;font-family:'JetBrains Mono';font-size:10px;color:var(--amber);font-weight:700}
+  .phases-strip{display:flex;gap:6px;margin-top:16px;flex-wrap:wrap}
+  .phases-strip .ph{font-family:'JetBrains Mono';font-size:11px;padding:4px 9px;border-radius:6px;border:1px solid var(--border-soft);color:var(--steel)}
+  .phases-strip .ph.done{color:var(--green-mint);border-color:rgba(0,217,146,.4)}
+  .phases-strip .ph.cur{color:var(--amber);border-color:rgba(255,186,0,.5);background:rgba(255,186,0,.06)}
+
+  /* ---------- SECTION ---------- */
+  section{padding:54px 0}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:28px;border-left:3px solid var(--green);padding-left:16px}
+  .sec-head h2{font-family:system-ui,sans-serif;font-size:clamp(26px,3.4vw,38px);font-weight:400;letter-spacing:-.6px}
+  .sec-head .n{font-family:'JetBrains Mono';color:var(--green);font-size:15px;font-weight:700}
+  .sec-head .sub{color:var(--steel);font-size:14px;margin-left:auto}
+
+  /* ---------- "TU CHECKLIST NIVEL 44" ---------- */
+  .now-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+  .nowcard{background:var(--carbon);border:1px solid var(--border);border-radius:10px;padding:22px;position:relative;overflow:hidden}
+  .nowcard.hot{border-color:var(--amber);box-shadow:0 0 0 1px rgba(255,186,0,.25),var(--shadow-amb)}
+  .nowcard .tag{font-family:'JetBrains Mono';font-size:11px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:10px}
+  .nowcard.hot .tag{color:var(--amber)}
+  .nowcard .tag.ok{color:var(--green-mint)}
+  .nowcard h3{font-size:19px;font-weight:600;margin-bottom:8px}
+  .nowcard ul{list-style:none;margin-top:6px}
+  .nowcard li{padding:5px 0 5px 22px;position:relative;color:var(--parch);font-size:14.5px}
+  .nowcard li::before{content:"▸";position:absolute;left:0;color:var(--green)}
+  .nowcard.hot li::before{color:var(--amber)}
+  .nowcard .pri{display:inline-block;margin-top:12px;font-family:'JetBrains Mono';font-size:11px;padding:3px 9px;border-radius:999px;background:rgba(255,186,0,.12);color:var(--amber);border:1px solid rgba(255,186,0,.3)}
+
+  /* ---------- JOURNEY / PHASES ---------- */
+  .journey{display:grid;grid-template-columns:1fr;gap:22px}
+  .phase{
+    background:var(--carbon);border:1px solid var(--border);border-radius:12px;
+    padding:26px 28px;display:grid;grid-template-columns:90px 1fr;gap:22px;position:relative;
+    transition:border-color .25s,transform .25s;
+  }
+  .phase:hover{border-color:var(--green);transform:translateY(-2px)}
+  .phase.locked{opacity:.5;filter:grayscale(.5)}
+  .phase.active{border-color:var(--amber);box-shadow:0 0 0 1px rgba(255,186,0,.3)}
+  .phase .pno{font-family:'JetBrains Mono';text-align:center}
+  .phase .pno .big{font-size:34px;font-weight:700;color:var(--green)}
+  .phase.active .pno .big{color:var(--amber)}
+  .phase .pno .rg{display:block;font-size:12px;color:var(--steel);margin-top:4px}
+  .phase h3{font-size:21px;font-weight:700;margin-bottom:4px}
+  .phase .state{font-family:'JetBrains Mono';font-size:11px;letter-spacing:1px;text-transform:uppercase}
+  .phase .state.done{color:var(--green-mint)}
+  .phase .state.cur{color:var(--amber)}
+  .phase .state.fut{color:var(--steel)}
+  .phase p.desc{color:var(--parch);font-size:14.5px;margin:10px 0 14px}
+  .phase .tasks{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{font-family:'JetBrains Mono';font-size:12px;padding:5px 11px;border-radius:7px;background:var(--carbon2);border:1px solid var(--border-soft);color:var(--parch)}
+  .chip.green{border-color:rgba(0,217,146,.4);color:var(--green-mint)}
+  .chip.amber{border-color:rgba(255,186,0,.4);color:var(--amber)}
+  @media(max-width:640px){.phase{grid-template-columns:1fr}.phase .pno{text-align:left;display:flex;gap:12px;align-items:center}}
+
+  /* ---------- PALS GRID ---------- */
+  .pals{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+  .pal{background:var(--carbon);border:1px solid var(--border);border-radius:10px;padding:18px;transition:.2s}
+  .pal:hover{border-color:var(--purple);transform:translateY(-3px)}
+  .pal .nm{font-weight:700;font-size:16px;display:flex;align-items:center;gap:8px}
+  .pal .dot{width:9px;height:9px;border-radius:50%;background:var(--purple);box-shadow:0 0 8px var(--purple)}
+  .pal .role{font-family:'JetBrains Mono';font-size:11px;color:var(--green-mint);text-transform:uppercase;letter-spacing:1px;margin:6px 0}
+  .pal .use{color:var(--parch);font-size:13.5px}
+
+  /* ---------- FARMS / MONEY ---------- */
+  .farm{background:var(--carbon);border:1px solid var(--border);border-radius:12px;padding:22px;margin-bottom:16px}
+  .farm h3{font-size:18px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+  .farm .badge{font-family:'JetBrains Mono';font-size:11px;padding:3px 9px;border-radius:999px;border:1px solid var(--border)}
+  .farm .badge.gold{color:var(--amber);border-color:rgba(255,186,0,.4);background:rgba(255,186,0,.08)}
+  .farm .badge.mat{color:var(--green-mint);border-color:rgba(0,217,146,.4)}
+  .farm .badge.lv{color:var(--purple);border-color:rgba(129,140,248,.4)}
+  .farm p{color:var(--parch);font-size:14.5px;margin-top:6px}
+
+  /* ---------- RAID ---------- */
+  .raid{background:linear-gradient(135deg,var(--carbon),#14110f);border:1px solid rgba(251,86,91,.35);border-radius:12px;padding:26px}
+  .raid h3{color:var(--coral);font-size:20px;font-weight:700;margin-bottom:10px}
+  .raid .tip{background:rgba(251,86,91,.07);border-left:3px solid var(--coral);padding:12px 16px;border-radius:0 8px 8px 0;color:var(--parch);font-size:14px;margin:12px 0}
+  .raid code{font-family:'JetBrains Mono';background:#0b0b0d;padding:2px 7px;border-radius:5px;color:var(--amber);font-size:13px}
+
+  /* ---------- INTERACTIVE CHECKLIST (tus tareas) ---------- */
+  .todo{background:var(--carbon);border:1px solid var(--border);border-radius:12px;padding:8px 4px}
+  .todo label{display:flex;align-items:flex-start;gap:14px;padding:14px 20px;cursor:pointer;border-bottom:1px solid var(--border-soft);transition:background .15s}
+  .todo label:last-child{border-bottom:none}
+  .todo label:hover{background:rgba(0,217,146,.05)}
+  .todo input{appearance:none;width:20px;height:20px;border:1.5px solid var(--border);border-radius:5px;margin-top:3px;flex:0 0 auto;cursor:pointer;position:relative;transition:.2s}
+  .todo input:checked{background:var(--green);border-color:var(--green)}
+  .todo input:checked::after{content:"✓";position:absolute;inset:0;display:grid;place-items:center;color:#050507;font-weight:900;font-size:13px}
+  .todo .txt{flex:1}
+  .todo .txt .t{font-weight:600;font-size:15px}
+  .todo .txt .d{color:var(--steel);font-size:13px}
+  .todo .meta{font-family:'JetBrains Mono';font-size:11px;color:var(--green-mint);white-space:nowrap}
+  .progress-note{margin-top:14px;font-family:'JetBrains Mono';font-size:13px;color:var(--parch);text-align:center}
+
+  /* ---------- FOOTER ---------- */
+  footer{border-top:1px solid var(--border);padding:34px 0 60px;color:var(--steel);font-size:13px;text-align:center}
+  footer b{color:var(--green-mint)}
+  .legend{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:14px;font-family:'JetBrains Mono';font-size:11px}
+  .legend span{display:flex;align-items:center;gap:6px}
+  .legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-in">
+    <div class="logo"><span class="bolt">⚡</span> PAL<b>EXPLORER</b></div>
+    <div class="nav-links">
+      <a href="#hora">Tu Nivel 44</a>
+      <a href="#check">Checklist</a>
+      <a href="#viaje">El Viaje</a>
+      <a href="#pals">Pals</a>
+      <a href="#granjas">Granjas</a>
+      <a href="#raid">Raid/DPS</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero wrap">
+  <span class="kicker">Palworld 1.0 · Full Release 10-jul-2026</span>
+  <h1>Tu viaje al <b>ENDGAME</b><br>empieza en el nivel 44</h1>
+  <p>Guía interactiva y viva de tu aventura. Cada fase, cada granja, cada Pal y cada raid — trazado paso a paso desde tus 44 niveles hasta el 80 definitivo. Hecho con datos reales extraídos de las mejores guías de 1.0.</p>
+
+  <!-- LEVEL TRACKER -->
+  <div class="tracker">
+    <div class="top">
+      <div class="lv">
+        <div class="now" id="lvNow">44</div>
+        <div class="lab">Tu nivel actual</div>
+      </div>
+      <div class="goal">
+        <div class="g">80</div>
+        <div class="lab">Endgame</div>
+      </div>
+    </div>
+    <div class="bar"><div class="fill" id="barFill"></div><div class="you"></div></div>
+    <div class="phases-strip" id="phaseStrip"></div>
+  </div>
+</header>
+
+<!-- TU NIVEL 44 / AHORA -->
+<section id="hora" class="wrap">
+  <div class="sec-head">
+    <span class="n">// 01</span>
+    <h2>Lo que tienes que hacer AHORA</h2>
+    <span class="sub">Fase 3 final · Fase 4 inminente</span>
+  </div>
+  <div class="now-grid">
+    <div class="nowcard hot">
+      <div class="tag">Prioridad · Esta semana</div>
+      <h3>Cierra la Fase 3 (Lv 30-45)</h3>
+      <ul>
+        <li>Sube tu base a nivel 15 → +trabajadores y 3ª base</li>
+        <li>Pon un <b>Guild Chest</b> en cada base (compartir inventario)</li>
+        <li>Logging Site Lv2 (Lv43) para hardwood</li>
+        <li>Coal Quarry (Lv37) + Ore Mining Site Lv2 (Lv39)</li>
+        <li>Linea Coal+Sulfur+Quartz en base eléctrica</li>
+      </ul>
+      <span class="pri">Grisbolt Lv5 electricidad alimenta belts</span>
+    </div>
+
+    <div class="nowcard hot">
+      <div class="tag">Prioridad · Desbloqueos</div>
+      <h3>Prepárate para la Fase 4</h3>
+      <ul>
+        <li><b>Lv46 Sulfur Quarry</b> — cierra necesidad de buscar sulfur</li>
+        <li><b>Lv46 Electric Furnace</b> → Plasteel = crude oil + ore</li>
+        <li>Ve juntando ore de fondo (lo vas a consumir loco en Fase 4)</li>
+        <li><b>Lv50 Oil Extractor</b> en Sunlit Island (-cerca spawn)</li>
+        <li><b>Lv50 Large Power Generator</b> (los extractores gastan mucho)</li>
+      </ul>
+      <span class="pri">Meta a Lv54: Plasma Multicutter</span>
+    </div>
+
+    <div class="nowcard">
+      <div class="tag ok">Ya deberías tener</div>
+      <h3>Fundamentos listos</h3>
+      <ul>
+        <li>Ranchs: Vixy (spheres), Kelpie (fluid), Cibilic (cloth)</li>
+        <li>Breeding Farm + Green Thunder + Vegetable Cake</li>
+        <li>Salad Farm (tomato+lettuce) activa</li>
+        <li>Dimensional Storage (Lv20) + Pal Research Lab</li>
+        <li>Merchant Lv12 capturado en base</li>
+      </ul>
+    </div>
+
+    <div class="nowcard">
+      <div class="tag ok">Consejo de oro</div>
+      <h3>No te quedes corto de madera</h3>
+      <ul>
+        <li>En 1.0 la madera entra en recetas de plank de endgame</li>
+        <li>Logging Site siempre con alguien asignado hasta Lv43+</li>
+        <li>Cada bioma da su versión (hardwood en frost/volcán/desierto)</li>
+        <li>El Plasma Multicutter (Lv54) mina mineral Y madera</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CHECKLIST INTERACTIVA -->
+<section id="check" class="wrap">
+  <div class="sec-head">
+    <span class="n">// 02</span>
+    <h2>Tu checklist interactiva (Nivel 44)</h2>
+    <span class="sub">Marca al completar · se guarda</span>
+  </div>
+  <div class="todo" id="todo">
+    <label><input type="checkbox" data-k="c1"><span class="txt"><span class="t">Subir base a nivel 15</span><span class="d">+trabajadores y desbloquea 3ª base</span></span><span class="meta">FASE 3</span></label>
+    <label><input type="checkbox" data-k="c2"><span class="txt"><span class="t">Colocar Guild Chest en cada base</span><span class="d">Lv41 · inventario compartido entre todas tus bases</span></span><span class="meta">FASE 3</span></label>
+    <label><input type="checkbox" data-k="c3"><span class="txt"><span class="t">Logging Site Lv2 (hardwood)</span><span class="d">Lv43 · necesario para blueprints endgame</span></span><span class="meta">FASE 3</span></label>
+    <label><input type="checkbox" data-k="c4"><span class="txt"><span class="t">Coal Quarry + Ore Mining Site Lv2</span><span class="d">Lv37 / Lv39 · automatiza minería pesada</span></span><span class="meta">FASE 3</span></label>
+    <label><input type="checkbox" data-k="c5"><span class="txt"><span class="t">Base eléctrica con Coal+Sulfur+Quartz</span><span class="d">Spot sugerido: (-238, -382) · 6 coal / 3 sulfur</span></span><span class="meta">FASE 3</span></label>
+    <label><input type="checkbox" data-k="c6"><span class="txt"><span class="t">Sulfur Quarry (Lv46) + Electric Furnace</span><span class="d">Prepara Plasteel = crude oil + ore</span></span><span class="meta">FASE 4</span></label>
+    <label><input type="checkbox" data-k="c7"><span class="txt"><span class="t">Oil Extractor en Sunlit Island (Lv50)</span><span class="d">6 nodos de oil, cerca de zona inicial</span></span><span class="meta">FASE 4</span></label>
+    <label><input type="checkbox" data-k="c8"><span class="txt"><span class="t">Large Power Generator (Lv50)</span><span class="d">Eficiencia de generación para extractores</span></span><span class="meta">FASE 4</span></label>
+    <label><input type="checkbox" data-k="c9"><span class="txt"><span class="t">Pure Quartz Quarry (Lv52)</span><span class="d">Desmantela bases de quartz puro</span></span><span class="meta">FASE 4</span></label>
+    <label><input type="checkbox" data-k="c10"><span class="txt"><span class="t">Plasma Multicutter (Lv54) 🗡️</span><span class="d">TU herramienta de farm definitiva hasta endgame</span></span><span class="meta">FASE 4</span></label>
+    <label><input type="checkbox" data-k="c11"><span class="txt"><span class="t">Cryogenic Crusher (Lv56)</span><span class="d">Spheres viejas → Paldium</span></span><span class="meta">FASE 4</span></label>
+  </div>
+  <div class="progress-note" id="progNote"></div>
+</section>
+
+<!-- EL VIAJE / FASES -->
+<section id="viaje" class="wrap">
+  <div class="sec-head">
+    <span class="n">// 03</span>
+    <h2>El Viaje completo al Endgame</h2>
+    <span class="sub">7 fases · Lv 1 → 80</span>
+  </div>
+  <div class="journey" id="journey"></div>
+</section>
+
+<!-- PALS -->
+<section id="pals" class="wrap">
+  <div class="sec-head">
+    <span class="n">// 04</span>
+    <h2>Mejores Pals (según Moxsy 1.0)</h2>
+    <span class="sub">Rol · dónde usarlos</span>
+  </div>
+  <div class="pals" id="palsGrid"></div>
+</section>
+
+<!-- GRANJAS -->
+<section id="granjas" class="wrap">
+  <div class="sec-head">
+    <span class="n">// 05</span>
+    <h2>Granjas y Dinero rápido</h2>
+    <span class="sub">Materiales · Dog Coins · Oro</span>
+  </div>
+  <div class="farm">
+    <h3>🪙 Dog Coins <span class="badge gold">1.0 cambió</span></h3>
+    <p>En 1.0 son más fáciles y los items más baratos. Mystic Accessory Box ya no cuesta 1000; Starter Accessory Box = 50. <b>Mammorest Lv40</b> dropea 50-75 dog coins (hasta 200 en zonas altas). Usa <b>Blazehowl Noct</b> para +drop. Merchant de dog coins en iglesias con Statue of Power.</p>
+  </div>
+  <div class="farm">
+    <h3>💰 Oro masivo (pesca) <span class="badge gold">~50k-100k</span></h3>
+    <p>Pesca <b>Doom Tide Guild</b> (sombra GRANDE en oasis desierto, ~50k; alpha ~100k) o <b>Turturial Terra</b> (medusas, decenas de miles, más común/rápido). Pesca en oasis raro desierto y Terraria island. Asusta los peces con disparos para resetear el spot.</p>
+  </div>
+  <div class="farm">
+    <h3>⚡ Leveling Pals Lv1→80 en ~3 min <span class="badge lv">carry Omascul</span></h3>
+    <p>Carry <b>Omascul</b> (80% exp boost partner skill) con Circle Bind + Sand Twister + Apocalypse. Buff Seafood Salad + Growth Acceleration Bell. Pelea vs <b>Selyne & Selyne</b> normal 3 veces (~1 min c/u). Sin usar balas del player.</p>
+  </div>
+  <div class="farm">
+    <h3>🛡️ Legendary Schematics <span class="badge mat">Alpha eggs</span></h3>
+    <p>Hatch Alpha eggs (Neptilius etc.) y desmantela los Pals resultantes en el Pal Disassembler → sueltan schematics de charge rifle y más. Mantén a los transportadores fuera para no perder loot.</p>
+  </div>
+  <div class="farm">
+    <h3>🔩 Plasteel <span class="badge mat">Lv46+</span></h3>
+    <p>Electric Furnace: crude oil (Oil Extractor Lv50) + ore → Plasteel. Necesitas Large Power Generator (Lv50) porque los extractores consumen mucha energía.</p>
+  </div>
+</section>
+
+<!-- RAID / DPS -->
+<section id="raid" class="wrap">
+  <div class="sec-head">
+    <span class="n">// 06</span>
+    <h2>Raid y Critical Hits (DPS endgame)</h2>
+    <span class="sub">Sistema nuevo 1.0</span>
+  </div>
+  <div class="raid">
+    <h3>⚔️ Blazamut Ryu Ultra · Critical Hits</h3>
+    <p>En 1.0 los Pals hacen "critical hits" a weak points. Passives tipo <b>Blazamut Ragnahawk</b> (+40% dragon weak-point damage) son un multiplicador <b>separado</b>: NO stacka con otro igual, pero SÍ con otras fuentes.</p>
+    <div class="tip">📊 Test vivo: Beakon <code>Cross Wind</code> ~9K → con Ribbuny (+40% grass crit) <b>NO</b> sube apenas. <code>Charged Cannon</code> dragon ~18K → con Blazamut Raya <b>~28K</b> (verdadero +40% separado).</div>
+    <p>Builds DPS fuertes: <b>Blazamut Ryu</b> (raid Ultra), combos de sinergia de party. Candidates de daño: <b>Jormuntide Ignis, Knocklem / Knocklem Ignis, Lyleen, Omascul, Yakumo</b>.</p>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div><b>PALEXPLORER</b> · Tu companion de Palworld 1.0 — generado con datos reales de KhrazeGaming, Moxsy/IGN y guías en español (jul 2026).</div>
+  <div class="legend">
+    <span><i style="background:var(--green)"></i> Completado / disponible</span>
+    <span><i style="background:var(--amber)"></i> Tu foco actual (Lv44)</span>
+    <span><i style="background:var(--purple)"></i> Endgame / crafting</span>
+    <span><i style="background:var(--coral)"></i> Raid / combate</span>
+  </div>
+</footer>
+
+<script>
+  /* ---------- DATOS DE FASES (desde la skill palworld-companion) ---------- */
+  const phases = [
+    {n:1, rg:"Lv 1-15",  t:"Setup inicial",        s:"done", tasks:["Base en Golden Hill / Desolate Church","Ranchs: Vixy, Kelpie, Cibilic","Capturar Merchant Lv12","Logging Site temprano"]},
+    {n:2, rg:"Lv 15-30", t:"Breeding & Salad",      s:"done", tasks:["Breeding Farm (Lv19)","Green Thunder + Vegetable Cake (x4 huevos)","Salad Farm (tomato+lettuce)","Clinic + Medicine Rack (Lv24)","Pal Research Lab + Dimensional Storage"]},
+    {n:3, rg:"Lv 30-45", t:"Electricidad & Guild Chest", s:"cur", tasks:["Base eléctrica (Grisbolt)","Coal+Sulfur+Quartz: (-238,-382)","Coal Quarry (Lv37)","Ore Mining Site Lv2 (Lv39)","Guild Chest (Lv41)","Logging Site Lv2 (Lv43)","Subir base a nivel 15"]},
+    {n:4, rg:"Lv 46-58", t:"Crude Oil & Plasteel",  s:"fut", tasks:["Sulfur Quarry (Lv46) + Electric Furnace","Oil Extractor en Sunlit Island (Lv50)","Large Power Generator (Lv50)","Pure Quartz Quarry (Lv52)","Plasma Multicutter (Lv54) 🗡️","Cryogenic Crusher (Lv56)"]},
+    {n:5, rg:"Lv 58-65", t:"Chromite & Coralum",    s:"fut", tasks:["Hexolite en playas de Feybreak","Chromite: Metal Detector + Smokie","Coralum: Breeding Wassign","Coralum schematic (Lv62)","Rapirus + Rapirus Cryst (-100% peso ore)"]},
+    {n:6, rg:"Lv 66-73", t:"Soralite (True Endgame)",s:"fut", tasks:["Soralite Ingot (Lv60) → Sunbreak Isles (-411,-490)","Ancient Civilization Cores (expediciones)","Thermal Cores: sacrificar Jetragon","Aquatic Construction Kit (Lv65)","Ancient Tech (Pals Lv6 en 2 suitabilities)","Soralite Quarry (Lv72)"]},
+    {n:7, rg:"Lv 74-80", t:"World Tree / Paldium",  s:"fut", tasks:["Progresar historia → World Tree map","World Tree buff (holy water o aura)","Ancient Material Synthesizer (Lv78) 🏆","Holy Water farm (Selyne/Soluna + Kattress)","Subterranean City Ruins (cada hora)","Lv 80 — ENDGAME"]},
+  ];
+
+  const pals = [
+    {nm:"Grintale", role:"Breeding", use:"Green Thunder: duplica huevos. Con Vegetable Cake = x4."},
+    {nm:"Broncherry Aqua", role:"Breeding", use:"Parent clave para lineas de huevos."},
+    {nm:"Braloha", role:"Breeding", use:"Otro parent fuerte de granjas de huevos."},
+    {nm:"Sekhmet + Anubis", role:"Base", use:"Combo handiwork fuerte para tu base."},
+    {nm:"Grisbolt", role:"Electricidad", use:"Lv5 electricidad; alimenta belts hasta late game."},
+    {nm:"Orzerk", role:"Electricidad", use:"Reemplazo de Grisbolt en late game."},
+    {nm:"Renoir", role:"Kitchen", use:"Fuego + handiwork para Ancient Tech kitchen."},
+    {nm:"Smokie", role:"Chromite", use:"+100% (hasta +200% condensado) yield de chromite."},
+    {nm:"Rapirus / Cryst", role:"Logística", use:"-100% peso de todos los ores al farmear."},
+    {nm:"Blazehowl Noct", role:"Dog Coins", use:"+drop en Mammorest para dog coins."},
+    {nm:"Selyne / Soluna", role:"World Tree", use:"Boost drop rate (neutral+darkness) en holy water farm."},
+    {nm:"Kattress", role:"World Tree", use:"+80% drop rate combinado con Selyne."},
+    {nm:"Jormuntide Ignis", role:"Daño", use:"DPS endgame de fuego."},
+    {nm:"Knocklem / Ignis", role:"Daño", use:"Tanque/DPS de endgame."},
+    {nm:"Omascul", role:"Daño/Level", use:"80% exp boost; carry para subir Pals a 80."},
+    {nm:"Yakumo", role:"Utilidad", use:"Pals must-have de mid/endgame."},
+  ];
+
+  /* ---------- RENDER FASES ---------- */
+  const jEl = document.getElementById('journey');
+  phases.forEach(p=>{
+    const st = p.s==='done'?'done ✓':p.s==='cur'?'EN CURSO':'futuro';
+    const stCls = p.s==='done'?'done':p.s==='cur'?'cur':'fut';
+    const chips = p.tasks.map(t=>`<span class="chip ${t.includes('🗡️')||t.includes('🏆')?'amber':''}">${t}</span>`).join('');
+    jEl.insertAdjacentHTML('beforeend',`
+      <div class="phase ${p.s==='done'?'locked':''} ${p.s==='cur'?'active':''}">
+        <div class="pno"><div class="big">${p.n}</div><span class="rg">${p.rg}</span></div>
+        <div>
+          <h3>${p.t}</h3>
+          <span class="state ${stCls}">${st}</span>
+          <p class="desc">${p.s==='cur'?'🔥 Esta es tu zona actual — cierra estas tareas para entrar a la Fase 4.':p.s==='done'?'Fase ya superada. Base sólida para lo que viene.':'Fase futura de tu progresión al 80.'}</p>
+          <div class="tasks">${chips}</div>
+        </div>
+      </div>`);
+  });
+
+  /* ---------- RENDER PALS ---------- */
+  const pg = document.getElementById('palsGrid');
+  pals.forEach(p=>{
+    pg.insertAdjacentHTML('beforeend',`
+      <div class="pal">
+        <div class="nm"><span class="dot"></span>${p.nm}</div>
+        <div class="role">${p.role}</div>
+        <div class="use">${p.use}</div>
+      </div>`);
+  });
+
+  /* ---------- PHASE STRIP (tracker) ---------- */
+  const cur = 3; // fase actual = 3
+  const strip = document.getElementById('phaseStrip');
+  phases.forEach(p=>{
+    const cls = p.s==='done'?'done':p.s==='cur'?'cur':'';
+    strip.insertAdjacentHTML('beforeend',`<span class="ph ${cls}">F${p.n} · ${p.rg}</span>`);
+  });
+
+  /* ---------- BARRA DE NIVEL ---------- */
+  const pct = Math.round((44/80)*100);
+  document.getElementById('barFill').style.width = pct+'%';
+
+  /* ---------- CHECKLIST PERSISTENTE ---------- */
+  const KEY='palworld_checklist_v1';
+  const saved = JSON.parse(localStorage.getItem(KEY)||'{}');
+  const inputs=[...document.querySelectorAll('#todo input')];
+  inputs.forEach(i=>{ i.checked = !!saved[i.dataset.k]; });
+  function refresh(){
+    const done = inputs.filter(i=>i.checked).length;
+    document.getElementById('progNote').textContent = `${done}/${inputs.length} tareas completadas — ${done===inputs.length?'🏆 ENDGAME A LA VISTA':'sigue empujando, Explorer'}`;
+  }
+  inputs.forEach(i=>i.addEventListener('change',()=>{
+    const s = JSON.parse(localStorage.getItem(KEY)||'{}');
+    s[i.dataset.k]=i.checked; localStorage.setItem(KEY,JSON.stringify(s)); refresh();
+  }));
+  refresh();
+</script>
+</body>
+</html>
