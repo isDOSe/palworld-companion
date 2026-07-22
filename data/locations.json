@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "locations": [
+    {
+      "name": "Golden Hill",
+      "coords": null,
+      "type": "base",
+      "phase": 1,
+      "notes": "Base inicial favorita, 8-9 nodos de ore, cerca de misiones iniciales"
+    },
+    {
+      "name": "Desolate Church",
+      "coords": null,
+      "type": "base",
+      "phase": 1,
+      "notes": "Alternativa a Golden Hill, 8-9 nodos de ore"
+    },
+    {
+      "name": "Small Village",
+      "coords": null,
+      "type": "npc",
+      "phase": 1,
+      "notes": "Merchant Lv12 para capturar, vende horns/pal organs/seeds/ladders"
+    },
+    {
+      "name": "Coal+Sulfur spot",
+      "coords": "(-238, -382)",
+      "type": "resource",
+      "phase": 3,
+      "notes": "6 coal, 3 sulfur, apartado en colina (Khraze)"
+    },
+    {
+      "name": "Quartz+Sulfur early",
+      "coords": null,
+      "type": "resource",
+      "phase": 3,
+      "notes": "6 quartz + 9 sulfur, zona amplia, algo dificil de defender"
+    },
+    {
+      "name": "Mt. Obsidian quartz",
+      "coords": "(-212, 245)",
+      "type": "resource",
+      "phase": 3,
+      "notes": "9-10 nodos de quartz puro, inexpugnable arriba de roca"
+    },
+    {
+      "name": "Sunlit Island",
+      "coords": null,
+      "type": "base",
+      "phase": 4,
+      "notes": "Mejor spot para Oil Extractor Lv50, 6 nodos de oil, cerca de spawn"
+    },
+    {
+      "name": "Feybreak beaches",
+      "coords": null,
+      "type": "resource",
+      "phase": 5,
+      "notes": "Hexolite facil en playas, tambien en dungeons"
+    },
+    {
+      "name": "Sylva boss arena",
+      "coords": null,
+      "type": "resource",
+      "phase": 5,
+      "notes": "3 nodos de chromite en su arena (ruta A con Metal Detector)"
+    },
+    {
+      "name": "Neptilius Island",
+      "coords": null,
+      "type": "breeding",
+      "phase": 5,
+      "notes": "Wassign breeding farm para coralum"
+    },
+    {
+      "name": "Sunbreak Isles base",
+      "coords": "(-411, -490)",
+      "type": "base",
+      "phase": 6,
+      "notes": "Borde de acantilado, ~8 nodos soralita, faciles de defender"
+    },
+    {
+      "name": "Sunbreak Isles",
+      "coords": null,
+      "type": "region",
+      "phase": 6,
+      "notes": "Soralite Ingot schematic (Lv60), Jetragon spawn Lv70+"
+    },
+    {
+      "name": "Desert oasis fishing",
+      "coords": null,
+      "type": "farming",
+      "phase": 2,
+      "notes": "Pescar Doom Tide Guild (sombra grande): ~50k gold, alpha ~100k"
+    },
+    {
+      "name": "Terraria Island fishing",
+      "coords": null,
+      "type": "farming",
+      "phase": 2,
+      "notes": "Pescar Turturial Terra (medusas): decenas de miles, mas comun"
+    },
+    {
+      "name": "World Tree map",
+      "coords": null,
+      "type": "region",
+      "phase": 7,
+      "notes": "Desbloqueado via main story, Paldium/Palite + World Tree Bark"
+    },
+    {
+      "name": "Subterranean City Ruins",
+      "coords": null,
+      "type": "dungeon",
+      "phase": 7,
+      "notes": "World Tree, 1hr duracion, artifacts/radiant gems/ancient spheres"
+    }
+  ]
+}

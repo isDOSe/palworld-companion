@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "farms": [
+    {
+      "name": "Dog Coins",
+      "category": "currency",
+      "method": "Matar Mammorest Lv40+ con Blazehowl Noct (+drop)",
+      "yield": "50-75 dog coins (hasta 200 en zonas altas)",
+      "requirements": [
+        "Blazehowl Noct",
+        "Mammorest Lv40+"
+      ],
+      "phase": 3,
+      "notes": "En 1.0 los items son mas baratos. Starter Accessory Box = 50 dog coins. Merchant en iglesias con Statue of Power."
+    },
+    {
+      "name": "Oro masivo (pesca)",
+      "category": "gold",
+      "method": "Pescar Doom Tide Guild (sombra grande) o Turturial Terra (medusas)",
+      "yield": "Doom Tide: ~50K (alpha ~100K). Turturial: decenas de miles, mas comun",
+      "requirements": [
+        "Beginner Fishing Set",
+        "Desert oasis o Terraria island"
+      ],
+      "phase": 2,
+      "notes": "Asustar peces con disparos resetea el spot de pesca."
+    },
+    {
+      "name": "Leveling Pals Lv1→80",
+      "category": "leveling",
+      "method": "Omascul carry (80% exp boost) vs Selyne & Selyne normal 3 veces",
+      "yield": "Lv1→80 en ~3 minutos",
+      "requirements": [
+        "Omascul con Circle Bind + Sand Twister + Apocalypse",
+        "Seafood Salad",
+        "Growth Acceleration Bell"
+      ],
+      "phase": 6,
+      "notes": "Sin usar balas del player."
+    },
+    {
+      "name": "Legendary Schematics",
+      "category": "materials",
+      "method": "Hatch Alpha eggs + desmantelar en Pal Disassembler",
+      "yield": "Schematics de charge rifle y mas",
+      "requirements": [
+        "Alpha eggs (Neptilius etc.)",
+        "Pal Disassembly Conveyor"
+      ],
+      "phase": 5,
+      "notes": "Mantener transportadores fuera para no perder loot."
+    },
+    {
+      "name": "Plasteel",
+      "category": "materials",
+      "method": "Electric Furnace: crude oil + ore",
+      "yield": "Plasteel para armaduras y armas avanzadas",
+      "requirements": [
+        "Electric Furnace (Lv46)",
+        "Oil Extractor (Lv50)",
+        "Large Power Generator (Lv50)"
+      ],
+      "phase": 4,
+      "notes": "Los extractores consumen mucha energia."
+    },
+    {
+      "name": "Chromite (Ruta A)",
+      "category": "materials",
+      "method": "Metal Detector + Smokie en Feybreak o arena de Sylva",
+      "yield": "Chromite con +100% yield (Smokie), +200% condensado",
+      "requirements": [
+        "Metal Detector (Lv58)",
+        "Smokie con harness"
+      ],
+      "phase": 5,
+      "notes": "Ruta preferida. 3 nodos en boss arena de Sylva."
+    },
+    {
+      "name": "Chromite (Ruta B)",
+      "category": "materials",
+      "method": "Breeding Silvegis + Pal Disassembler",
+      "yield": "~9 chromite por Silvegis",
+      "requirements": [
+        "Breeding Farm",
+        "Silvegis padres con Lush Hospitality + Philanthropist",
+        "Pal Disassembly Conveyor"
+      ],
+      "phase": 5,
+      "notes": "Semi-auto, ~150% drop + 100% breeding speed."
+    },
+    {
+      "name": "Coralum",
+      "category": "materials",
+      "method": "Breeding Wassign en isla de Neptilius",
+      "yield": "~50 coral por run",
+      "requirements": [
+        "Breeding Farm",
+        "Wassign con Lush Hospitality + Service Minded + Philanthropist"
+      ],
+      "phase": 5,
+      "notes": "Usar Green Thunder + Vegetable Cake (x4 huevos)."
+    },
+    {
+      "name": "Holy Water (World Tree)",
+      "category": "materials",
+      "method": "Selyne/Soluna + Kattress (+80%+80% drop rate)",
+      "yield": "Dropea de cualquier criatura viva del mapa World Tree",
+      "requirements": [
+        "Selyne o Soluna (neutral+darkness)",
+        "Kattress (Ember/Elechild)"
+      ],
+      "phase": 7,
+      "notes": "Pals que afectan 2 categorias duplican efecto. Granjas cerca en el mapa."
+    },
+    {
+      "name": "Thermal Cores",
+      "category": "materials",
+      "method": "Craftear o sacrificar Jetragon regulares (NO alpha)",
+      "yield": "Thermal Cores para tecnologias avanzadas",
+      "requirements": [
+        "Jetragon (regular)",
+        "Sunbreak Isles Lv70+"
+      ],
+      "phase": 6,
+      "notes": "Tambien se pueden criar con breeding farm."
+    },
+    {
+      "name": "Ancient Civilization Cores",
+      "category": "materials",
+      "method": "Expedition Station (1 por base)",
+      "yield": "Cores + soralita + coralum pasivos",
+      "requirements": [
+        "Pal Expedition Station"
+      ],
+      "phase": 3,
+      "notes": "Empezar temprano para acumular para Lv66+."
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+﻿{
+  "version": "1.0",
+  "technologies": [
+    {
+      "level": 1,
+      "regular": [{"name":"Primitive Workbench","cost":0}, {"name":"Stone Axe","cost":0}, {"name":"Stone Pickaxe","cost":0}, {"name":"Hand-held Torch","cost":0}, {"name":"Wooden Club","cost":0}]
+    },
+    {
+      "level": 2,
+      "regular": [{"name":"Palbox","cost":1}, {"name":"Pal Sphere","cost":1}, {"name":"Campfire","cost":1}, {"name":"Wooden Chest","cost":1}, {"name":"Repair Bench","cost":1}, {"name":"Wooden Structure Set","cost":2}, {"name":"Pal Dressing Facility","cost":1}]
+    },
+    {
+      "level": 3,
+      "regular": [{"name":"Old Bow","cost":1}, {"name":"Arrow","cost":1}, {"name":"Stone Spear","cost":2}, {"name":"Shoddy Bed","cost":1}, {"name":"Straw Pal Bed","cost":2}, {"name":"Global Palbox","cost":1}]
+    },
+    {
+      "level": 4,
+      "regular": [{"name":"Common Shield","cost":2}, {"name":"Cloth Outfit","cost":2}, {"name":"Cloth","cost":1}, {"name":"Feed Box","cost":2}]
+    },
+    {
+      "level": 5,
+      "regular": [{"name":"Berry Plantation","cost":2}, {"name":"Ranch","cost":2}, {"name":"Normal Parachute","cost":2}]
+    },
+    {
+      "level": 6,
+      "regular": [{"name":"Pal Gear Workbench","cost":2}, {"name":"Fire Arrow","cost":1}, {"name":"Mounted Torch","cost":2}, {"name":"Sign","cost":1}, {"name":"Wall-Mounted Sign","cost":2}, {"name":"Rushoar Saddle","cost":1}, {"name":"Foxparks's Harness","cost":1}]
+    },
+    {
+      "level": 7,
+      "regular": [{"name":"Monitoring Stand","cost":2}, {"name":"Bat","cost":1}, {"name":"Logging Site","cost":2}, {"name":"Stone Pit","cost":2}, {"name":"Sandbag","cost":2}, {"name":"Alarm Bell","cost":1}, {"name":"Melpaca Saddle","cost":1}]
+    },
+    {
+      "level": 8,
+      "regular": [{"name":"Crusher","cost":2}, {"name":"Wooden Defensive Wall","cost":1}, {"name":"Wooden Gate","cost":2}, {"name":"Hanging Trap","cost":1}]
+    },
+    {
+      "level": 9,
+      "regular": [{"name":"Statue of Power","cost":2}, {"name":"Small Feed Bag","cost":1}, {"name":"Tropical Outfit","cost":3}, {"name":"Tundra Outfit","cost":3}, {"name":"Hot Spring","cost":2}, {"name":"Direhowl's Saddled Harness","cost":1}]
+    },
+    {
+      "level": 10,
+      "regular": [{"name":"Primitive Furnace","cost":3}, {"name":"Three Shot Bow","cost":2}, {"name":"Feathered Hair Band","cost":2}, {"name":"Nail","cost":1}, {"name":"Ladder","cost":1}, {"name":"Bear Trap (Small)","cost":1}],
+      "ancient": [{"name":"Egg Incubator","cost":1}]
+    },
+    {
+      "level": 11,
+      "regular": [{"name":"Metal Axe","cost":2}, {"name":"Metal Pickaxe","cost":2}, {"name":"High Quality Workbench","cost":3}, {"name":"Chillet Saddle","cost":2}, {"name":"Lifmunk's Submachine Gun","cost":1}]
+    },
+    {
+      "level": 12,
+      "regular": [{"name":"Pelt Armor","cost":2}, {"name":"Meat Cleaver","cost":2}, {"name":"Medieval Medicine Workbench","cost":2}, {"name":"Tanzee's Assault Rifle","cost":1}, {"name":"Eikthyrdeer Saddle","cost":2}],
+      "ancient": [{"name":"Grappling Gun","cost":1}]
+    },
+    {
+      "level": 13,
+      "regular": [{"name":"Crossbow","cost":2}, {"name":"Metal Spear","cost":2}, {"name":"Metal Chest","cost":2}, {"name":"Cooler Box","cost":2}, {"name":"Training Dummy","cost":2}, {"name":"Tanzee Ignis's Assault Rifle","cost":2}]
+    },
+    {
+      "level": 14,
+      "regular": [{"name":"Mega Sphere","cost":2}, {"name":"Sphere Workbench","cost":3}, {"name":"Average Feed Bag","cost":2}, {"name":"Wall Torch","cost":2}, {"name":"Univolt Saddle","cost":1}],
+      "ancient": [{"name":"Pal Essence Condenser","cost":2}]
+    },
+    {
+      "level": 15,
+      "regular": [{"name":"Beginner Fishing Set","cost":2}, {"name":"Wheat Plantation","cost":2}, {"name":"Mill","cost":2}, {"name":"Wooden Board","cost":1}, {"name":"Viewing Cage","cost":2}, {"name":"Arsox Saddle","cost":1}, {"name":"Nitewing Saddle","cost":2}],
+      "ancient": [{"name":"Hip Lantern","cost":2}]
+    },
+    {
+      "level": 16,
+      "regular": [{"name":"Mega Shield","cost":2}, {"name":"Heat Resistant Pelt Armor","cost":3}, {"name":"Surfent Saddle","cost":1}],
+      "ancient": [{"name":"Lockpicking Tool v1","cost":1}]
+    },
+    {
+      "level": 17,
+      "regular": [{"name":"Primitive Sword","cost":2}, {"name":"Cooking Pot","cost":2}, {"name":"Heater","cost":2}, {"name":"Tombstone","cost":1}, {"name":"Pengullet's Rocket Launcher","cost":2}],
+      "ancient": [{"name":"Mega Grappling Gun","cost":2}]
+    },
+    {
+      "level": 18,
+      "regular": [{"name":"Mega Glider","cost":2}, {"name":"Cold Resistant Pelt Armor","cost":3}, {"name":"Cooler","cost":2}, {"name":"Tocotoco's Gloves","cost":2}, {"name":"Pengullet Lux's Rocket Launcher","cost":2}],
+      "ancient": [{"name":"Ring of Mercy","cost":2}]
+    },
+    {
+      "level": 19,
+      "regular": [{"name":"Pal Labor Research Laboratory","cost":2}, {"name":"Heavy Weight Module","cost":1}, {"name":"Cement","cost":1}, {"name":"Stone Structure Set","cost":3}, {"name":"Defensive Wall","cost":2}, {"name":"Stone Gate","cost":2}, {"name":"Grintale Saddle","cost":1}],
+      "ancient": [{"name":"Breeding Farm","cost":2}]
+    },
+    {
+      "level": 20,
+      "regular": [{"name":"Giga Sphere","cost":3}, {"name":"Weapon Workbench","cost":3}, {"name":"Large Toolbox","cost":2}, {"name":"Elphidran Saddle","cost":2}, {"name":"Tarantriss Saddle","cost":3}, {"name":"Sweepa Saddle","cost":1}],
+      "ancient": [{"name":"Dimensional Pal Storage","cost":2}]
+    },
+    {
+      "level": 21,
+      "regular": [{"name":"Musket","cost":3}, {"name":"Gunpowder","cost":2}, {"name":"Coarse Ammo","cost":1}, {"name":"Tomato Plantation","cost":2}, {"name":"Flame Cauldron","cost":2}, {"name":"Bear Trap (Large)","cost":2}, {"name":"Vanwyrm Saddle","cost":2}, {"name":"Eikthyrdeer Terra Saddle","cost":2}],
+      "ancient": [{"name":"Antique Dresser","cost":1}]
+    },
+    {
+      "level": 22,
+      "regular": [{"name":"Pal Expedition Station","cost":2}, {"name":"Stun Baton","cost":2}, {"name":"High Quality Bait","cost":1}, {"name":"Flea Market (Items)","cost":2}, {"name":"Flea Market (Pals)","cost":2}, {"name":"Vanwyrm Cryst Saddle","cost":2}],
+      "ancient": [{"name":"Homeward Thundercloud","cost":2}]
+    },
+    {
+      "level": 23,
+      "regular": [{"name":"Metal Armor","cost":2}, {"name":"Metal Helm","cost":2}, {"name":"Curve Module","cost":2}, {"name":"Large Feed Bag","cost":3}, {"name":"Water Fountain","cost":2}, {"name":"Kingpaca Saddle","cost":2}]
+    },
+    {
+      "level": 24,
+      "regular": [{"name":"Makeshift Handgun","cost":3}, {"name":"Fluffy Pal Bed","cost":2}, {"name":"Medicine Rack","cost":2}, {"name":"Clinic","cost":2}, {"name":"Flower Bed","cost":2}, {"name":"Foxparks Cryst's Harness","cost":2}, {"name":"Azurobe Saddle","cost":2}, {"name":"Dinossom Saddle","cost":2}],
+      "ancient": [{"name":"Ore Mining Site","cost":2}]
+    },
+    {
+      "level": 25,
+      "regular": [{"name":"Boost Gun","cost":2}, {"name":"Boost Gun Ammo","cost":2}, {"name":"Heat Resistant Metal Armor","cost":2}, {"name":"Lettuce Plantation","cost":2}, {"name":"Silo","cost":2}, {"name":"Frag Grenade","cost":2}, {"name":"Surfent Terra Saddle","cost":1}, {"name":"Helzephyr Saddle","cost":3}],
+      "ancient": [{"name":"Lockpicking Tool v2","cost":2}]
+    },
+    {
+      "level": 26,
+      "regular": [{"name":"Makeshift SMG","cost":3}, {"name":"Power Generator","cost":3}, {"name":"Lamp","cost":1}, {"name":"Human-Powered Generator","cost":1}, {"name":"Mounted Crossbow","cost":2}, {"name":"Fenglope Saddle","cost":3}, {"name":"Polapup Saddle","cost":3}],
+      "ancient": [{"name":"Single-shot Sphere Launcher","cost":4}]
+    },
+    {
+      "level": 27,
+      "regular": [{"name":"Hyper Sphere","cost":3}, {"name":"Sphere Assembly Line","cost":3}, {"name":"Cold Resistant Metal Armor","cost":2}, {"name":"Small Pouch","cost":2}, {"name":"Ceiling Lamp","cost":1}, {"name":"Shock Grenade","cost":2}, {"name":"Azurobe Cryst Saddle","cost":2}],
+      "ancient": [{"name":"Extra Weapon Holster","cost":5}]
+    },
+    {
+      "level": 28,
+      "regular": [{"name":"Handgun","cost":3}, {"name":"Handgun Ammo","cost":1}, {"name":"Fine Bed","cost":2}, {"name":"High Quality Monitoring Stand","cost":3}, {"name":"Stump and Axe","cost":2}, {"name":"Dazemu Saddle","cost":2}, {"name":"Mammorest Saddle","cost":2}],
+      "ancient": [{"name":"Anti-Gravity Belt","cost":2}]
+    },
+    {
+      "level": 29,
+      "regular": [{"name":"Giga Shield","cost":2}, {"name":"Sword","cost":2}, {"name":"Intermediate Fishing Rod (Cattiva)","cost":2}, {"name":"Production Assembly Line","cost":3}, {"name":"Potato Plantation","cost":2}, {"name":"Ice Grenade","cost":2}, {"name":"Pyrin Saddle","cost":2}, {"name":"Beakon Saddle","cost":3}],
+      "ancient": [{"name":"Enhanced Hip Lantern","cost":2}]
+    },
+    {
+      "level": 30,
+      "regular": [{"name":"Makeshift Shotgun","cost":2}, {"name":"Mine","cost":2}, {"name":"Metal Structure Set","cost":4}, {"name":"Metal Defensive Wall","cost":1}, {"name":"Iron Gate","cost":2}, {"name":"Pickaxe and Helmet","cost":2}, {"name":"Mushroom Cake","cost":4}, {"name":"Rayhound Saddle","cost":2}],
+      "ancient": [{"name":"Meowmere","cost":2}]
+    },
+    {
+      "level": 31,
+      "regular": [{"name":"Makeshift Assault Rifle","cost":2}, {"name":"Sniper Module","cost":3}, {"name":"Cryogenic Coolant","cost":2}, {"name":"Fishing Pond","cost":3}, {"name":"High Quality Hot Spring","cost":3}, {"name":"Incendiary Grenade","cost":2}, {"name":"Ghangler Saddle","cost":3}, {"name":"Reindrix Saddle","cost":2}],
+      "ancient": [{"name":"Giga Grappling Gun","cost":3}]
+    },
+    {
+      "level": 32,
+      "regular": [{"name":"Weapon Assembly Line","cost":3}, {"name":"Pal Recovery Grenade","cost":3}, {"name":"Carrot Plantation","cost":2}, {"name":"Witch Cauldron","cost":2}, {"name":"Palbox Control Device","cost":3}, {"name":"Elphidran Aqua Saddle","cost":2}, {"name":"Mossanda's Grenade Launcher","cost":2}, {"name":"Rayhound Cryst Saddle","cost":4}]
+    },
+    {
+      "level": 33,
+      "regular": [{"name":"Old Revolver","cost":3}, {"name":"Polymer","cost":2}, {"name":"Electric Mine","cost":2}, {"name":"Water Grenade","cost":2}, {"name":"Snowman","cost":2}, {"name":"Blazehowl Saddle","cost":3}, {"name":"Ragnahawk Saddle","cost":3}, {"name":"Broncherry Saddle","cost":2}],
+      "ancient": [{"name":"Summoning Altar","cost":3}]
+    },
+    {
+      "level": 34,
+      "regular": [{"name":"Improved Furnace","cost":4}, {"name":"Refined Metal Axe","cost":2}, {"name":"Refined Metal Pickaxe","cost":2}, {"name":"Refined Metal Spear","cost":3}, {"name":"Pyrin Noct Saddle","cost":2}, {"name":"Mossanda Lux's Grenade Launcher","cost":2}, {"name":"Dinossom Lux Saddle","cost":2}],
+      "ancient": [{"name":"Ability Glasses","cost":4}]
+    },
+    {
+      "level": 35,
+      "regular": [{"name":"Ultra Sphere","cost":4}, {"name":"Sphere Assembly Line II","cost":5}, {"name":"Circuit Board","cost":2}, {"name":"Carbon Fiber","cost":2}, {"name":"Grass Grenade","cost":2}, {"name":"Blazehowl Noct Saddle","cost":3}, {"name":"Palumba Saddle","cost":3}],
+      "ancient": [{"name":"Air Dash Boots","cost":2}]
+    },
+    {
+      "level": 36,
+      "regular": [{"name":"Single-shot Rifle","cost":3}, {"name":"Rifle Ammo","cost":2}, {"name":"Onion Plantation","cost":2}, {"name":"High Quality Cloth","cost":2}, {"name":"Large Pal Bed","cost":2}, {"name":"Huge Feed Bag","cost":4}, {"name":"Braloha Saddle","cost":3}, {"name":"Moldron Saddle","cost":2}],
+      "ancient": [{"name":"Electric Egg Incubator","cost":5}]
+    },
+    {
+      "level": 37,
+      "regular": [{"name":"SMG","cost":3}, {"name":"Refined Metal Armor","cost":3}, {"name":"Refined Metal Helm","cost":3}, {"name":"Corrosive Solvent","cost":2}, {"name":"Accumulator","cost":2}, {"name":"Maraith Saddle","cost":2}],
+      "ancient": [{"name":"Coal Mine","cost":5}]
+    },
+    {
+      "level": 38,
+      "regular": [{"name":"Pal Surgery Table","cost":3}, {"name":"Meteor Launcher","cost":3}, {"name":"Deluxe Bait","cost":2}, {"name":"Refrigerator","cost":2}, {"name":"Ice Mine","cost":2}, {"name":"Ground Grenade","cost":2}, {"name":"Quivern Saddle","cost":3}],
+      "ancient": [{"name":"Scatter Sphere Launcher","cost":5}]
+    },
+    {
+      "level": 39,
+      "regular": [{"name":"Double-barreled Shotgun","cost":3}, {"name":"Shotgun Shell","cost":2}, {"name":"Slider Module","cost":3}, {"name":"Refined Metal Chest","cost":3}, {"name":"Astegon Saddle","cost":4}, {"name":"Shroomer Saddle","cost":2}, {"name":"Shroomer Noct Saddle","cost":2}],
+      "ancient": [{"name":"Ore Mining Site II","cost":3}]
+    },
+    {
+      "level": 40,
+      "regular": [{"name":"Metal Bat","cost":3}, {"name":"Heat Resistant Refined Metal Armor","cost":4}, {"name":"Giga Glider","cost":3}, {"name":"Mounted Machine Gun","cost":3}, {"name":"Dark Grenade","cost":2}, {"name":"Jormuntide Saddle","cost":2}, {"name":"Grizzbolt's Minigun","cost":4}, {"name":"Chillet Ignis Saddle","cost":2}],
+      "ancient": [{"name":"Double Jump Boots","cost":2}]
+    },
+    {
+      "level": 41,
+      "regular": [{"name":"Semi-Auto Rifle","cost":3}, {"name":"Cold Resistant Refined Metal Armor","cost":4}, {"name":"Electric Kitchen","cost":3}, {"name":"Alpha Wave Generator","cost":3}, {"name":"Electric Heater","cost":3}, {"name":"Xenogard Saddle","cost":3}, {"name":"Yakumo Saddle","cost":2}, {"name":"Mammorest Cryst Saddle","cost":2}],
+      "ancient": [{"name":"Guild Chest","cost":4}]
+    },
+    {
+      "level": 42,
+      "regular": [{"name":"Compound Bow","cost":3}, {"name":"Reinforced Arrow","cost":1}, {"name":"Production Assembly Line II","cost":5}, {"name":"Electric Cooler","cost":3}, {"name":"Dragon Grenade","cost":2}, {"name":"Whalaska Saddle","cost":3}, {"name":"Ghangler Ignis Saddle","cost":3}, {"name":"Reptyro Saddle","cost":2}]
+    },
+    {
+      "level": 43,
+      "regular": [{"name":"Pump-Action Shotgun","cost":4}, {"name":"Hyper Shield","cost":3}, {"name":"Medium Pouch","cost":2}, {"name":"High Quality Wooden Board","cost":2}, {"name":"Electric Medicine Workbench","cost":3}, {"name":"Suzaku Saddle","cost":4}, {"name":"Reptyro Cryst Saddle","cost":2}],
+      "ancient": [{"name":"Logging Site II","cost":2}]
+    },
+    {
+      "level": 44,
+      "regular": [{"name":"Legendary Sphere","cost":5}, {"name":"Electric Furnace","cost":5}, {"name":"Bio Battery","cost":2}, {"name":"Katana","cost":2}, {"name":"Pal Metal Pickaxe","cost":2}, {"name":"Pal Metal Axe","cost":2}, {"name":"Suzaku Aqua Saddle","cost":4}, {"name":"Broncherry Aqua Saddle","cost":2}]
+    },
+    {
+      "level": 45,
+      "regular": [{"name":"Glass Structure Set","cost":2}, {"name":"Assault Rifle","cost":4}, {"name":"Assault Rifle Ammo","cost":1}, {"name":"Advanced Fishing Rod (Pengullet)","cost":3}, {"name":"Drafting Table","cost":4}, {"name":"Quivern Botan Saddle","cost":2}, {"name":"Relaxsaurus' Missile Launcher","cost":4}, {"name":"Wumpo Saddle","cost":4}]
+    },
+    {
+      "level": 46,
+      "regular": [{"name":"Pal Metal Armor","cost":4}, {"name":"Pal Metal Helm","cost":4}, {"name":"Beta Wave Generator","cost":3}, {"name":"Large Mounted Lamp","cost":2}, {"name":"Blazamut Saddle","cost":4}, {"name":"Kingpaca Cryst Saddle","cost":2}],
+      "ancient": [{"name":"Sulfur Mine","cost":5}]
+    },
+    {
+      "level": 47,
+      "regular": [{"name":"Semi-Auto Shotgun","cost":4}, {"name":"Weapon Assembly Line II","cost":5}, {"name":"Vegetable Cake","cost":4}, {"name":"Giant Feed Bag","cost":5}, {"name":"Large Ceiling Lamp","cost":2}, {"name":"Helzephyr Lux Saddle","cost":3}, {"name":"Shadowbeak Saddle","cost":4}]
+    },
+    {
+      "level": 48,
+      "regular": [{"name":"Heat Resistant Pal Metal Armor","cost":5}, {"name":"Sniper Module II","cost":4}, {"name":"Electric Pylon","cost":2}, {"name":"Relaxsaurus Lux's Missile Launcher","cost":4}, {"name":"Dualith Saddle","cost":4}, {"name":"Tetroise Saddle","cost":3}],
+      "ancient": [{"name":"Large Incubator","cost":5}]
+    },
+    {
+      "level": 49,
+      "regular": [{"name":"Item Retrieval Machine","cost":5}, {"name":"Large-Scale Stone Oven","cost":5}, {"name":"Japanese-Style Structure Set","cost":2}],
+      "ancient": [{"name":"Hyper Grappling Gun","cost":4}]
+    },
+    {
+      "level": 50,
+      "regular": [{"name":"Cold Resistant Pal Metal Armor","cost":5}, {"name":"Crude Oil Extractor","cost":2}, {"name":"Plasteel","cost":2}, {"name":"Computer","cost":2}, {"name":"Mounted Missile Launcher","cost":3}],
+      "ancient": [{"name":"Large Power Generator","cost":4}]
+    },
+    {
+      "level": 51,
+      "regular": [{"name":"Ultimate Sphere","cost":5}, {"name":"Plasteel Armor","cost":5}, {"name":"Plasteel Helmet","cost":4}, {"name":"Laser Rifle","cost":5}, {"name":"Energy Cartridge","cost":1}, {"name":"Cold Food Box","cost":2}, {"name":"Wumpo Botan Saddle","cost":4}],
+      "ancient": [{"name":"High-Pressure Crude Oil Extractor","cost":4}]
+    },
+    {
+      "level": 52,
+      "regular": [{"name":"Hyper Glider","cost":4}, {"name":"Flamethrower","cost":5}, {"name":"Flamethrower Fuel","cost":1}, {"name":"Alluring Bait","cost":2}, {"name":"Nyafia's Shotfun","cost":3}],
+      "ancient": [{"name":"Pure Quartz Quarry","cost":5}]
+    },
+    {
+      "level": 53,
+      "regular": [{"name":"Large Pouch","cost":3}, {"name":"Heat Resistant Plasteel Armor","cost":5}, {"name":"Grenade Launcher","cost":5}, {"name":"Grenade Ammo","cost":1}, {"name":"Frag Grenade Mk2","cost":3}, {"name":"Selyne Saddle","cost":4}, {"name":"Bulldosu Saddle","cost":3}],
+      "ancient": [{"name":"Lockpicking Tool v3","cost":3}]
+    },
+    {
+      "level": 54,
+      "regular": [{"name":"Plasma Multicutter","cost":4}, {"name":"Cold Resistant Plasteel Armor","cost":5}, {"name":"Gatling Gun","cost":5}, {"name":"Gatling Gun Ammo","cost":1}, {"name":"Refrigerated Crusher","cost":2}, {"name":"Gildane Saddle","cost":3}, {"name":"Celesdir Saddle","cost":4}],
+      "ancient": [{"name":"Extra Weapon Holster 2","cost":4}]
+    },
+    {
+      "level": 55,
+      "regular": [{"name":"Lily's Spear","cost":3}, {"name":"Ultra Shield","cost":4}, {"name":"Lightweight Plasteel Armor","cost":5}, {"name":"Polapup Terra Saddle","cost":3}, {"name":"Blazamut Ryu Saddle","cost":4}],
+      "ancient": [{"name":"Homing Sphere Launcher","cost":5}]
+    },
+    {
+      "level": 56,
+      "regular": [{"name":"Guided Missile Launcher","cost":5}, {"name":"Missile Ammo","cost":1}, {"name":"Pal Disassembly Conveyor","cost":5}, {"name":"Pal Pod","cost":5}]
+    },
+    {
+      "level": 57,
+      "regular": [{"name":"Advanced Bow","cost":3}, {"name":"Advanced Arrow","cost":1}, {"name":"Giant Pouch","cost":4}, {"name":"Beam Sword","cost":3}, {"name":"Starryon Saddle","cost":4}, {"name":"Fenglope Lux Saddle","cost":3}, {"name":"Kitsun Saddle","cost":2}]
+    },
+    {
+      "level": 58,
+      "regular": [{"name":"Exotic Sphere","cost":5}, {"name":"Advanced Sphere Assembly Line","cost":5}, {"name":"Hexolite","cost":2}, {"name":"Gigantic Furnace","cost":5}, {"name":"Metal Detector","cost":3}, {"name":"Smokie's Harness","cost":3}, {"name":"Azurmane Saddle","cost":4}],
+      "ancient": [{"name":"Large-Scale Electric Egg Incubator","cost":5}]
+    },
+    {
+      "level": 59,
+      "regular": [{"name":"Advanced Chest","cost":4}, {"name":"Laser Gatling Gun","cost":5}, {"name":"Laser Gatling Cartridge","cost":1}, {"name":"Thermal Core","cost":3}, {"name":"Jormuntide Ignis Saddle","cost":2}, {"name":"Kitsun Noct Saddle","cost":3}]
+    },
+    {
+      "level": 60,
+      "regular": [{"name":"Advanced Shield","cost":5}, {"name":"Hexolite Helmet","cost":5}, {"name":"Extravagant Vegetable Cake","cost":4}, {"name":"Faleris Saddle","cost":3}, {"name":"Faleris Aqua Saddle","cost":4}, {"name":"Silvegis Saddle","cost":4}]
+    },
+    {
+      "level": 61,
+      "regular": [{"name":"Plasma Cannon","cost":5}, {"name":"Plasma Cartridge","cost":1}, {"name":"Advanced Recovery Meds","cost":2}, {"name":"Revival Potion","cost":3}, {"name":"Advanced Medicine Workbench","cost":4}, {"name":"Paladius Saddle","cost":5}, {"name":"Necromus Saddle","cost":5}],
+      "ancient": [{"name":"Double Air Dash Boots","cost":5}]
+    },
+    {
+      "level": 62,
+      "regular": [{"name":"Powerful Fishing Magnet","cost":3}, {"name":"Coralum Ingot","cost":3}, {"name":"Advanced Workshop","cost":5}, {"name":"Futuristic Structure Set","cost":2}, {"name":"Frostallion Saddle","cost":5}, {"name":"Frostallion Noct Saddle","cost":5}],
+      "ancient": [{"name":"Hexolite Quartz Mine","cost":5}]
+    },
+    {
+      "level": 63,
+      "regular": [{"name":"Energy Shotgun","cost":5}, {"name":"Energy Shotgun Ammo","cost":1}, {"name":"Advanced Weapon Assembly Line","cost":5}, {"name":"Heat Resistant Hexolite Armor","cost":5}, {"name":"Megaboost Gun","cost":3}],
+      "ancient": [{"name":"Ultra Grappling Gun","cost":5}]
+    },
+    {
+      "level": 64,
+      "regular": [{"name":"Overheat Rifle","cost":5}, {"name":"Overheat Rifle Ammo","cost":1}, {"name":"Cold Resistant Hexolite Armor","cost":5}, {"name":"Japanese-Style Hot Spring","cost":3}, {"name":"Univolt Cryst Saddle","cost":4}, {"name":"Neptilius Saddle","cost":3}]
+    },
+    {
+      "level": 65,
+      "regular": [{"name":"Rocket Launcher","cost":5}, {"name":"Rocket Ammo","cost":2}, {"name":"Charge Rifle","cost":5}, {"name":"Charge Rifle Ammo","cost":1}, {"name":"Lightweight Hexolite Armor","cost":5}, {"name":"Solmora Saddle","cost":3}],
+      "ancient": [{"name":"Triple Air Dash Boots","cost":6}]
+    },
+    {
+      "level": 66,
+      "regular": [{"name":"Ancient Furnace","cost":5}, {"name":"Soralite Ingot","cost":3}, {"name":"Solmora Lux Saddle","cost":4}, {"name":"Dynamoff Saddle","cost":4}, {"name":"Xenolord Saddle","cost":5}],
+      "ancient": [{"name":"Aquatic Construction Kit","cost":4}]
+    },
+    {
+      "level": 67,
+      "regular": [{"name":"Sol Sphere","cost":5}, {"name":"Mechanical Bow","cost":4}, {"name":"Mechanical Bow Ammo","cost":2}, {"name":"AI Core","cost":4}, {"name":"Ancient Workbench","cost":5}, {"name":"Ancient Structure Set","cost":3}]
+    },
+    {
+      "level": 68,
+      "regular": [{"name":"Enhanced Lily's Spear","cost":4}, {"name":"Combat SMG","cost":4}, {"name":"Combat SMG Ammo","cost":2}, {"name":"Ancient Armor","cost":5}, {"name":"Ancient Helm","cost":5}, {"name":"Eidrolon Saddle","cost":5}]
+    },
+    {
+      "level": 69,
+      "regular": [{"name":"Prototype Shotgun","cost":4}, {"name":"Prototype Shotgun Ammo","cost":2}, {"name":"Homing Module","cost":5}, {"name":"Large Fishing Pond","cost":4}, {"name":"Dualith Noct Saddle","cost":4}]
+    },
+    {
+      "level": 70,
+      "regular": [{"name":"Heavy Assault Rifle","cost":5}, {"name":"Heavy Assault Rifle Ammo","cost":2}, {"name":"Ancient Kitchen","cost":4}, {"name":"Hartalis Saddle","cost":5}, {"name":"Moldron Cryst Saddle","cost":4}],
+      "ancient": [{"name":"Triple Jump Boots","cost":6}]
+    },
+    {
+      "level": 71,
+      "regular": [{"name":"Ancient Shield","cost":5}, {"name":"Ancient Monitoring Stand","cost":5}, {"name":"Skillfruit Orchard","cost":3}, {"name":"Beakon Cryst Saddle","cost":4}, {"name":"Whalaska Ignis Saddle","cost":4}]
+    },
+    {
+      "level": 72,
+      "regular": [{"name":"Tactical Grenade Launcher","cost":5}, {"name":"Tactical Grenade Launcher Ammo","cost":2}, {"name":"Roujay Saddle","cost":4}, {"name":"Ophydia Saddle","cost":4}],
+      "ancient": [{"name":"Soralite Quarry","cost":7}]
+    },
+    {
+      "level": 73,
+      "regular": [{"name":"Laser Sword","cost":5}, {"name":"Gold Coin Assembly Line","cost":4}, {"name":"Ancient Clinic","cost":4}, {"name":"Ancient Pal Bed","cost":3}, {"name":"Bastigor's Hammer","cost":4}]
+    },
+    {
+      "level": 74,
+      "regular": [{"name":"Paloxite Ingot","cost":4}, {"name":"Ancient Sphere","cost":5}, {"name":"Ancient Relic Recycler","cost":3}, {"name":"Special Cake","cost":4}]
+    },
+    {
+      "level": 75,
+      "regular": [{"name":"Beam Scatter","cost":5}, {"name":"Beam Scatter Ammo","cost":2}, {"name":"Heat-Resistant Ancient Armor","cost":5}, {"name":"Ancient Power Generator","cost":5}, {"name":"Tetroise Primo Saddle","cost":4}]
+    },
+    {
+      "level": 76,
+      "regular": [{"name":"Ancient Hot Spring","cost":5}, {"name":"Corrosive Mist Mask","cost":5}, {"name":"Explosion Resistant Undershirt","cost":5}, {"name":"Eidrolon Ignis Saddle","cost":5}],
+      "ancient": [{"name":"Ancient Hatchery","cost":8}]
+    },
+    {
+      "level": 77,
+      "regular": [{"name":"Drone Launcher","cost":4}, {"name":"Cold-Resistant Ancient Armor","cost":5}, {"name":"Starryon Primo Saddle","cost":4}, {"name":"Shaolong Saddle","cost":4}]
+    },
+    {
+      "level": 78,
+      "regular": [{"name":"Plasma Rifle","cost":5}, {"name":"Plasma Rifle Ammo","cost":1}, {"name":"Ancient Material Synthesizer","cost":5}, {"name":"Ancient Farm","cost":4}, {"name":"Celesdir Noct Saddle","cost":4}]
+    },
+    {
+      "level": 79,
+      "regular": [{"name":"Lightweight Ancient Armor","cost":5}, {"name":"Nutrient Tonic","cost":4}, {"name":"Aegidron Saddle","cost":4}, {"name":"Jetragon's Missile Launcher","cost":5}]
+    },
+    {
+      "level": 80,
+      "regular": [{"name":"Beam Launcher","cost":5}, {"name":"Beam Launcher Ammo","cost":2}, {"name":"Wing Cell","cost":5}],
+      "ancient": [{"name":"Wing Pack","cost":9}]
+    }
+  ]
+}

@@ -1,0 +1,7241 @@
+{
+  "version": "1.0",
+  "count": 251,
+  "pals": [
+    {
+      "id": "001",
+      "name": "Lamball",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 1
+      },
+      "roles": [
+        "farming"
+      ]
+    },
+    {
+      "id": "002",
+      "name": "Cattiva",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "gathering",
+        "mining"
+      ]
+    },
+    {
+      "id": "003",
+      "name": "Chikipi",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 1
+      },
+      "roles": [
+        "gathering",
+        "farming"
+      ]
+    },
+    {
+      "id": "004",
+      "name": "Lifmunk",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 1,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 1,
+        "mining": 0,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "gathering"
+      ]
+    },
+    {
+      "id": "005",
+      "name": "Fuack",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "005B",
+      "name": "Fuack Ignis",
+      "elements": [
+        "Fire",
+        "Water"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 60
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "006",
+      "name": "Vixy",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 1
+      },
+      "roles": [
+        "gathering",
+        "farming"
+      ]
+    },
+    {
+      "id": "007",
+      "name": "Celaray",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "007B",
+      "name": "Celaray Lux",
+      "elements": [
+        "Electric",
+        "Water"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 75,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 2,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "008",
+      "name": "Cremis",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 2
+      },
+      "roles": [
+        "farming"
+      ]
+    },
+    {
+      "id": "009",
+      "name": "Croajiro",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "009B",
+      "name": "Croajiro Noct",
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "stats": {
+        "hp": 85,
+        "attack": 110,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "010",
+      "name": "Herbil",
+      "elements": [
+        "Grass",
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 75,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "011",
+      "name": "Teafant",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "012",
+      "name": "Gumoss",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 1,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "013",
+      "name": "Pupperai",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "014",
+      "name": "Clovee",
+      "elements": [
+        "Grass",
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 65,
+        "defense": 65
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 1,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "015",
+      "name": "Jolthog",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 1,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "015B",
+      "name": "Jolthog Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 1,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining",
+        "cooling"
+      ]
+    },
+    {
+      "id": "016",
+      "name": "Depresso",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "medicine"
+      ]
+    },
+    {
+      "id": "017",
+      "name": "Pengullet",
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 1,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "watering",
+        "cooling"
+      ]
+    },
+    {
+      "id": "017B",
+      "name": "Pengullet Lux",
+      "elements": [
+        "Electric",
+        "Water"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 2,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "018",
+      "name": "Penking",
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 95
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 2,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "watering",
+        "handiwork",
+        "mining",
+        "cooling"
+      ]
+    },
+    {
+      "id": "018B",
+      "name": "Penking Lux",
+      "elements": [
+        "Electric",
+        "Water"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 2,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 2,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "019",
+      "name": "Hoocrates",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "020",
+      "name": "Melpaca",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 75,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "farming"
+      ]
+    },
+    {
+      "id": "021",
+      "name": "Kingpaca",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 85,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "021B",
+      "name": "Kingpaca Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 85,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 4,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "022",
+      "name": "Daedream",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 60
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "023",
+      "name": "Tanzee",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 1,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 1,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "gathering"
+      ]
+    },
+    {
+      "id": "023B",
+      "name": "Tanzee Ignis",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 75,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 1,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "024",
+      "name": "Nox",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 85,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "025",
+      "name": "Flambelle",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 70,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 1,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "medicine",
+        "farming"
+      ]
+    },
+    {
+      "id": "026",
+      "name": "Rooby",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 1,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "027",
+      "name": "Mau",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 1
+      },
+      "roles": [
+        "gathering",
+        "farming"
+      ]
+    },
+    {
+      "id": "027B",
+      "name": "Mau Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 1,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "028",
+      "name": "Rushoar",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "029",
+      "name": "Foxparks",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 1,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "029B",
+      "name": "Foxparks Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 2,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "030",
+      "name": "Killamari",
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "gathering",
+        "transporting"
+      ]
+    },
+    {
+      "id": "030B",
+      "name": "Killamari Primo",
+      "elements": [
+        "Neutral",
+        "Water"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "031",
+      "name": "Fuddler",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 50
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "032",
+      "name": "Eikthyrdeer",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 80,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering"
+      ]
+    },
+    {
+      "id": "032B",
+      "name": "Eikthyrdeer Terra",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 80,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "033",
+      "name": "Direhowl",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 90,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "034",
+      "name": "Caprity",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 70,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 1
+      },
+      "roles": [
+        "planting",
+        "farming"
+      ]
+    },
+    {
+      "id": "034B",
+      "name": "Caprity Noct",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 75,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 1
+      },
+      "roles": [
+        "farming"
+      ]
+    },
+    {
+      "id": "035",
+      "name": "Swee",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 1,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "036",
+      "name": "Sweepa",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 90,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 3,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "037",
+      "name": "Turtacle",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 75,
+        "defense": 115
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "037B",
+      "name": "Turtacle Terra",
+      "elements": [
+        "Ground",
+        "Water"
+      ],
+      "stats": {
+        "hp": 85,
+        "attack": 85,
+        "defense": 125
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "038",
+      "name": "Hangyu",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "038B",
+      "name": "Hangyu Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 2,
+        "medicine": 0,
+        "cooling": 2,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "039",
+      "name": "Woolipop",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "farming"
+      ]
+    },
+    {
+      "id": "039B",
+      "name": "Woolipop Terra",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 95
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "040",
+      "name": "Mozzarina",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 50,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 2
+      },
+      "roles": [
+        "farming"
+      ]
+    },
+    {
+      "id": "041",
+      "name": "Azurobe",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 4,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "041B",
+      "name": "Azurobe Cryst",
+      "elements": [
+        "Dragon",
+        "Ice"
+      ],
+      "stats": {
+        "hp": 115,
+        "attack": 105,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 4,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "042",
+      "name": "Sparkit",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 1,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "043",
+      "name": "Kelpsea",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "043B",
+      "name": "Kelpsea Ignis",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 1,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "044",
+      "name": "Ribbuny",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 65,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "gathering"
+      ]
+    },
+    {
+      "id": "044B",
+      "name": "Ribbuny Botan",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 65,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "045",
+      "name": "Jelliette",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "046",
+      "name": "Jellroy",
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 75,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "047",
+      "name": "Amione",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 65
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 1,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "048",
+      "name": "Gloopie",
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "049",
+      "name": "Galeclaw",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 85,
+        "defense": 60
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "050",
+      "name": "Wispaw",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 85,
+        "attack": 95,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "051",
+      "name": "Nitewing",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 95,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "052",
+      "name": "Tombat",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 3,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "gathering",
+        "mining"
+      ]
+    },
+    {
+      "id": "053",
+      "name": "Tocotoco",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "054",
+      "name": "Univolt",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 3,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 1,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "electricity",
+        "lumbering"
+      ]
+    },
+    {
+      "id": "055",
+      "name": "Gobfin",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "055B",
+      "name": "Gobfin Ignis",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "056",
+      "name": "Loupmoon",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork"
+      ]
+    },
+    {
+      "id": "056B",
+      "name": "Loupmoon Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 4,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "057",
+      "name": "Cawgnito",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 95,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "058",
+      "name": "Arsox",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 85,
+        "attack": 95,
+        "defense": 95
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "lumbering"
+      ]
+    },
+    {
+      "id": "059",
+      "name": "Muffly",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 55
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 1,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "060",
+      "name": "Bristla",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 2,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "medicine"
+      ]
+    },
+    {
+      "id": "061",
+      "name": "Cinnamoth",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 1,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "062",
+      "name": "Puffolt",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 2,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "063",
+      "name": "Elphidran",
+      "elements": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 80,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering"
+      ]
+    },
+    {
+      "id": "063B",
+      "name": "Elphidran Aqua",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "stats": {
+        "hp": 115,
+        "attack": 80,
+        "defense": 95
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 4,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "064",
+      "name": "Vanwyrm",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 115,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "064B",
+      "name": "Vanwyrm Cryst",
+      "elements": [
+        "Dark",
+        "Ice"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 120,
+        "defense": 95
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "065",
+      "name": "Felbat",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 105,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 3,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "066",
+      "name": "Vaelet",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 3,
+        "cooling": 2,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "gathering",
+        "medicine"
+      ]
+    },
+    {
+      "id": "067",
+      "name": "Beegarde",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 90,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 2,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 2
+      },
+      "roles": [
+        "planting",
+        "gathering",
+        "farming"
+      ]
+    },
+    {
+      "id": "068",
+      "name": "Elizabee",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 105,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 4,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 4,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 3,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "gathering"
+      ]
+    },
+    {
+      "id": "069",
+      "name": "Lovander",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 70,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 2,
+        "medicine": 3,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "070",
+      "name": "Grintale",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 80,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "071",
+      "name": "Tarantriss",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 2,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "072",
+      "name": "Polapup",
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 105,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 3,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "073",
+      "name": "Leezpunk",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork"
+      ]
+    },
+    {
+      "id": "073B",
+      "name": "Leezpunk Ignis",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "074",
+      "name": "Gorirat",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "lumbering",
+        "transporting"
+      ]
+    },
+    {
+      "id": "074B",
+      "name": "Gorirat Terra",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "075",
+      "name": "Surfent",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 3,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "watering",
+        "transporting"
+      ]
+    },
+    {
+      "id": "075B",
+      "name": "Surfent Terra",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering"
+      ]
+    },
+    {
+      "id": "076",
+      "name": "Robinquill",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 105,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 2,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "handiwork",
+        "gathering",
+        "lumbering"
+      ]
+    },
+    {
+      "id": "076B",
+      "name": "Robinquill Terra",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 105,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 3,
+        "lumbering": 2,
+        "mining": 2,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "077",
+      "name": "Flopie",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 65,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 1
+      },
+      "roles": [
+        "planting",
+        "gathering"
+      ]
+    },
+    {
+      "id": "078",
+      "name": "Wixen",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 110,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "handiwork"
+      ]
+    },
+    {
+      "id": "078B",
+      "name": "Wixen Noct",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 110,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 4,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "medicine"
+      ]
+    },
+    {
+      "id": "079",
+      "name": "Katress",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 105,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "medicine"
+      ]
+    },
+    {
+      "id": "079B",
+      "name": "Katress Ignis",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 105,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "080",
+      "name": "Helzephyr",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "080B",
+      "name": "Helzephyr Lux",
+      "elements": [
+        "Dark",
+        "Electric"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 125,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 3,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "081",
+      "name": "Elgrove",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 105,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 3,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "082",
+      "name": "Lunaris",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork"
+      ]
+    },
+    {
+      "id": "083",
+      "name": "Fenglope",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 110,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering"
+      ]
+    },
+    {
+      "id": "083B",
+      "name": "Fenglope Lux",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 115,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 5,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 4,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "084",
+      "name": "Dinossom",
+      "elements": [
+        "Dragon",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 85,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "lumbering"
+      ]
+    },
+    {
+      "id": "084B",
+      "name": "Dinossom Lux",
+      "elements": [
+        "Dragon",
+        "Electric"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 90,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 2,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "085",
+      "name": "Bushi",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 125,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 1,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "lumbering"
+      ]
+    },
+    {
+      "id": "085B",
+      "name": "Bushi Noct",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 130,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "mining"
+      ]
+    },
+    {
+      "id": "086",
+      "name": "Munchill",
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 1,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "087",
+      "name": "Mammorest",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 150,
+        "attack": 85,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 4,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 4,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering"
+      ]
+    },
+    {
+      "id": "087B",
+      "name": "Mammorest Cryst",
+      "elements": [
+        "Ground",
+        "Ice"
+      ],
+      "stats": {
+        "hp": 150,
+        "attack": 85,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 5,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 5,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "088",
+      "name": "Finsider",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 85,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "088B",
+      "name": "Finsider Ignis",
+      "elements": [
+        "Fire",
+        "Water"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 2,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "089",
+      "name": "Petallia",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 95,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 4,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 4,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "gathering",
+        "medicine"
+      ]
+    },
+    {
+      "id": "090",
+      "name": "Leafan",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 115,
+        "defense": 95
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "091",
+      "name": "Incineram",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 100,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "091B",
+      "name": "Incineram Noct",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 105,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork"
+      ]
+    },
+    {
+      "id": "092",
+      "name": "Dazzi",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 3,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "092B",
+      "name": "Dazzi Noct",
+      "elements": [
+        "Dark",
+        "Electric"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "093",
+      "name": "Pyrin",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 95,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 4,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "093B",
+      "name": "Pyrin Noct",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 95,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 4,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "094",
+      "name": "Relaxaurus",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 100,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 3,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "094B",
+      "name": "Relaxaurus Lux",
+      "elements": [
+        "Dragon",
+        "Electric"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 110,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 4,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "electricity",
+        "transporting"
+      ]
+    },
+    {
+      "id": "095",
+      "name": "Foxcicle",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 4,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 3,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering",
+        "cooling"
+      ]
+    },
+    {
+      "id": "096",
+      "name": "Beakon",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 115,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 4,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 5,
+        "farming": 0
+      },
+      "roles": [
+        "electricity",
+        "transporting"
+      ]
+    },
+    {
+      "id": "097",
+      "name": "Ghangler",
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 125,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 5,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "097B",
+      "name": "Ghangler Ignis",
+      "elements": [
+        "Fire",
+        "Water"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 5,
+        "watering": 5,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "098",
+      "name": "Rayhound",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 4,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "099",
+      "name": "Menasting",
+      "elements": [
+        "Dark",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 130
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 5,
+        "farming": 0
+      },
+      "roles": [
+        "mining",
+        "transporting"
+      ]
+    },
+    {
+      "id": "099B",
+      "name": "Menasting Terra",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 105,
+        "defense": 130
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 6,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "100",
+      "name": "Needoll",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 85,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "101",
+      "name": "Reindrix",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 85,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 3,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering",
+        "cooling"
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Mossanda",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 90,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 4,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "lumbering",
+        "transporting"
+      ]
+    },
+    {
+      "id": "102B",
+      "name": "Mossanda Lux",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 4,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "electricity",
+        "transporting"
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Chillet",
+      "elements": [
+        "Dragon",
+        "Ice"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 80,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 2,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "103B",
+      "name": "Chillet Ignis",
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 85,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 4,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Ragnahawk",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 105,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Moldron",
+      "elements": [
+        "Fire",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 125,
+        "defense": 115
+      },
+      "work": {
+        "kindling": 5,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "106",
+      "name": "Palumba",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 110,
+        "defense": 115
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 4,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 5,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "gathering"
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Digtoise",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 95,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Broncherry",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 90,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 5,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "planting"
+      ]
+    },
+    {
+      "id": "108B",
+      "name": "Broncherry Aqua",
+      "elements": [
+        "Grass",
+        "Water"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 95,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 5,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Dumud",
+      "elements": [
+        "Ground",
+        "Water"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 70,
+        "defense": 95
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 2,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "109B",
+      "name": "Dumud Gild",
+      "elements": [
+        "Ground",
+        "Water"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 75,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 2,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Braloha",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 95,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 5,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 5,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "planting"
+      ]
+    },
+    {
+      "id": "111",
+      "name": "Kitsun",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 115,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "111B",
+      "name": "Kitsun Noct",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 115,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "112",
+      "name": "Blazehowl",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 110,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 5,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling"
+      ]
+    },
+    {
+      "id": "112B",
+      "name": "Blazehowl Noct",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 115,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 3,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "113",
+      "name": "Warsect",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 100,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 5,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "113B",
+      "name": "Warsect Terra",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 105,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 5,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "114",
+      "name": "Frostplume",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 4,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Majex",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 115,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 4,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 5,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "116",
+      "name": "Sibelyx",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 90,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 3,
+        "cooling": 3,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "medicine",
+        "cooling",
+        "farming"
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Maraith",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 105,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 4,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "118",
+      "name": "Shroomer",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 80,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 3,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "118B",
+      "name": "Shroomer Noct",
+      "elements": [
+        "Dark",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 85,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 3,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Icelyn",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 115,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 5,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 5,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "120",
+      "name": "Gildra",
+      "elements": [
+        "Dark",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 120,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "121",
+      "name": "Jormuntide",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 120,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 7,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "121B",
+      "name": "Jormuntide Ignis",
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 130,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 7,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "122",
+      "name": "Suzaku",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 105,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 5,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "122B",
+      "name": "Suzaku Aqua",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 125,
+        "attack": 105,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 6,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "watering"
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Dazemu",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 90,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 2,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "124",
+      "name": "Quivern",
+      "elements": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 2,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "transporting"
+      ]
+    },
+    {
+      "id": "124B",
+      "name": "Quivern Botan",
+      "elements": [
+        "Dragon",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 5,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 4,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "125",
+      "name": "Lullu",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "gathering"
+      ]
+    },
+    {
+      "id": "126",
+      "name": "Kikit",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Yakumo",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 85,
+        "attack": 85,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "128",
+      "name": "Skutlass",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 4,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 1,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "129",
+      "name": "Reptyro",
+      "elements": [
+        "Fire",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 105,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 5,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "mining"
+      ]
+    },
+    {
+      "id": "129B",
+      "name": "Reptyro Cryst",
+      "elements": [
+        "Ground",
+        "Ice"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 105,
+        "defense": 130
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 3,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "130",
+      "name": "Starryon",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "131",
+      "name": "Pierdon",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 105,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "132",
+      "name": "Cryolinx",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 4,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 4,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering",
+        "cooling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "132B",
+      "name": "Cryolinx Terra",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 105,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 6,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "133",
+      "name": "Snugloo",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 75,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 3,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "134",
+      "name": "Wumpo",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 140,
+        "attack": 80,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 5,
+        "transporting": 6,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering",
+        "cooling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "134B",
+      "name": "Wumpo Botan",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 140,
+        "attack": 80,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 6,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "lumbering",
+        "transporting"
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Sootseer",
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 125,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 3,
+        "lumbering": 2,
+        "mining": 0,
+        "medicine": 3,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "136",
+      "name": "Carnibora",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 85,
+        "attack": 90,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 6,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 4,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "137",
+      "name": "Blazamut",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 6,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 7,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "mining"
+      ]
+    },
+    {
+      "id": "137B",
+      "name": "Blazamut Ryu",
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 130,
+        "defense": 125
+      },
+      "work": {
+        "kindling": 6,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 7,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "mining"
+      ]
+    },
+    {
+      "id": "138",
+      "name": "Dualith",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 105,
+        "defense": 125
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 5,
+        "lumbering": 0,
+        "mining": 6,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 6,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "139",
+      "name": "Anubis",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 130,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 6,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 6,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "mining"
+      ]
+    },
+    {
+      "id": "140",
+      "name": "Sekhmet",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 115,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 6,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork"
+      ]
+    },
+    {
+      "id": "141",
+      "name": "Prixter",
+      "elements": [
+        "Dark",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 110,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 2,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering"
+      ]
+    },
+    {
+      "id": "142",
+      "name": "Tetroise",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 100,
+        "defense": 135
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "143",
+      "name": "Nyafia",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 2,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "144",
+      "name": "Mimog",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 130
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "145",
+      "name": "Xenovader",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 125,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "146",
+      "name": "Xenogard",
+      "elements": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 120,
+        "defense": 130
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "147",
+      "name": "Prunelia",
+      "elements": [
+        "Dark",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 3,
+        "electricity": 0,
+        "handiwork": 1,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 3,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "148",
+      "name": "Nitemary",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "149",
+      "name": "Smokie",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 85,
+        "attack": 90,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "150",
+      "name": "Omascul",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 105,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "151",
+      "name": "Whalaska",
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 115,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 5,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 6,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "151B",
+      "name": "Whalaska Ignis",
+      "elements": [
+        "Fire",
+        "Ice"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 120,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 5,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 6,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "152",
+      "name": "Verdash",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 115,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 4,
+        "electricity": 0,
+        "handiwork": 5,
+        "gathering": 5,
+        "lumbering": 3,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "gathering"
+      ]
+    },
+    {
+      "id": "153",
+      "name": "Splatterina",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 95,
+        "attack": 115,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 6,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 5,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork",
+        "medicine"
+      ]
+    },
+    {
+      "id": "154",
+      "name": "Gildane",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 110,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "155",
+      "name": "Dogen",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 3,
+        "lumbering": 0,
+        "mining": 3,
+        "medicine": 2,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "156",
+      "name": "Bulldosu",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 115,
+        "attack": 95,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 4,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "157",
+      "name": "Celesdir",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 110,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 4,
+        "mining": 7,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "lumbering",
+        "mining"
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Astegon",
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 125
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 7,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "159",
+      "name": "Knocklem",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 110,
+        "defense": 135
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 4,
+        "lumbering": 0,
+        "mining": 7,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 7,
+        "farming": 0
+      },
+      "roles": [
+        "gathering",
+        "mining",
+        "transporting"
+      ]
+    },
+    {
+      "id": "160",
+      "name": "Silvegis",
+      "elements": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 110,
+        "defense": 115
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 6,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "161",
+      "name": "Azurmane",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 120,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 5,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "162",
+      "name": "Valentail",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "163",
+      "name": "Snock",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 75
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 4,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "164",
+      "name": "Souffline",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 60
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 2,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "165",
+      "name": "Lapiron",
+      "elements": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 4,
+        "lumbering": 0,
+        "mining": 2,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "166",
+      "name": "Hoodle",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 1,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 1,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "167",
+      "name": "Slowatt",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 75,
+        "defense": 70
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 3,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "168",
+      "name": "Bakemi",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 80
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 3,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 4,
+        "cooling": 0,
+        "transporting": 2,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "169",
+      "name": "Solmora",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 85
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 4,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "170",
+      "name": "Lapure",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 6,
+        "gathering": 5,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "171",
+      "name": "Eidrolon",
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 115,
+        "attack": 125,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 6,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "174",
+      "name": "Flaracle",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 125,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 7,
+        "watering": 6,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 2,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "175",
+      "name": "Ophydia",
+      "elements": [
+        "Grass",
+        "Water"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 115,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 5,
+        "planting": 7,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "179",
+      "name": "Mycora",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 90
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 6,
+        "electricity": 0,
+        "handiwork": 4,
+        "gathering": 4,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 6,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "185",
+      "name": "Grizzbolt",
+      "elements": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 100,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 5,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 3,
+        "mining": 5,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "186",
+      "name": "Lyleen",
+      "elements": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 110,
+        "defense": 105
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 7,
+        "electricity": 0,
+        "handiwork": 5,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 6,
+        "cooling": 0,
+        "transporting": 5,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "handiwork",
+        "medicine"
+      ]
+    },
+    {
+      "id": "186B",
+      "name": "Lyleen Noct",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 110,
+        "defense": 115
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 5,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 6,
+        "cooling": 0,
+        "transporting": 7,
+        "farming": 0
+      },
+      "roles": [
+        "planting",
+        "medicine"
+      ]
+    },
+    {
+      "id": "187",
+      "name": "Orserk",
+      "elements": [
+        "Dragon",
+        "Electric"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 130,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 8,
+        "handiwork": 4,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "electricity"
+      ]
+    },
+    {
+      "id": "188",
+      "name": "Faleris",
+      "elements": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 105,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 6,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 3,
+        "farming": 0
+      },
+      "roles": [
+        "kindling",
+        "transporting"
+      ]
+    },
+    {
+      "id": "188B",
+      "name": "Faleris Aqua",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 110,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 6,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 5,
+        "farming": 0
+      },
+      "roles": [
+        "watering",
+        "transporting"
+      ]
+    },
+    {
+      "id": "189",
+      "name": "Shadowbeak",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 120,
+        "defense": 140
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "190",
+      "name": "Selyne",
+      "elements": [
+        "Dark",
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 115,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 7,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 6,
+        "medicine": 3,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "handiwork"
+      ]
+    },
+    {
+      "id": "191",
+      "name": "Bastigor",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 140,
+        "attack": 130,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 6,
+        "medicine": 0,
+        "cooling": 5,
+        "transporting": 8,
+        "farming": 0
+      },
+      "roles": [
+        "mining",
+        "cooling"
+      ]
+    },
+    {
+      "id": "195",
+      "name": "Bellanoir",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 150,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 5,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 5,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "195B",
+      "name": "Bellanoir Libero",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 120,
+        "attack": 150,
+        "defense": 100
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 6,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 7,
+        "cooling": 0,
+        "transporting": 4,
+        "farming": 0
+      },
+      "roles": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "196",
+      "name": "Xenolord",
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 120,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 2,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "197",
+      "name": "Hartalis",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 135,
+        "attack": 130,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 7,
+        "mining": 7,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "198",
+      "name": "Paladius",
+      "elements": [
+        "Neutral"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 120,
+        "defense": 145
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 6,
+        "mining": 6,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "199",
+      "name": "Necromus",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 130,
+        "attack": 145,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 6,
+        "mining": 6,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "mining"
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Frostallion",
+      "elements": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 140,
+        "attack": 140,
+        "defense": 120
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 7,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "200B",
+      "name": "Frostallion Noct",
+      "elements": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 140,
+        "attack": 140,
+        "defense": 135
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 7,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": [
+        "gathering"
+      ]
+    },
+    {
+      "id": "201",
+      "name": "Neptilius",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 105,
+        "attack": 145,
+        "defense": 125
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 7,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "202",
+      "name": "Jetragon",
+      "elements": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 110,
+        "attack": 140,
+        "defense": 110
+      },
+      "work": {
+        "kindling": 8,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    },
+    {
+      "id": "203",
+      "name": "Panthalus",
+      "elements": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 180,
+        "attack": 120,
+        "defense": 200
+      },
+      "work": {
+        "kindling": 0,
+        "watering": 0,
+        "planting": 0,
+        "electricity": 0,
+        "handiwork": 0,
+        "gathering": 0,
+        "lumbering": 0,
+        "mining": 0,
+        "medicine": 0,
+        "cooling": 0,
+        "transporting": 0,
+        "farming": 0
+      },
+      "roles": []
+    }
+  ]
+}

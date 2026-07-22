@@ -1,0 +1,448 @@
+{
+  "version": "1.0",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Setup inicial",
+      "range": "Lv 1-15",
+      "focus": "Primera base, ranchs tempranos, recursos basicos",
+      "tasks": [
+        {
+          "level": 1,
+          "task": "Primera base cerca de oro (Golden Hill, Desolate Church)",
+          "priority": "critical"
+        },
+        {
+          "level": 5,
+          "task": "Ranch con Vixy (cava spheres), Kelpie (Pal Fluid), Cibilic (cloth)",
+          "priority": "high"
+        },
+        {
+          "level": 7,
+          "task": "Logging Site para madera (se usa hasta Lv43+)",
+          "priority": "high"
+        },
+        {
+          "level": 12,
+          "task": "Capturar Merchant en small village y traerlo a base",
+          "priority": "medium"
+        },
+        {
+          "level": 14,
+          "task": "Mega Sphere para capturar Pals mas fuertes",
+          "priority": "medium"
+        }
+      ],
+      "key_pals": [
+        "Vixy",
+        "Kelpie",
+        "Cibilic",
+        "Lamball",
+        "Cattiva",
+        "Foxparks"
+      ],
+      "key_tech": [
+        "Palbox",
+        "Pal Sphere",
+        "Campfire",
+        "Ranch",
+        "Logging Site",
+        "Stone Pit",
+        "Mega Sphere"
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Breeding & Salad",
+      "range": "Lv 15-30",
+      "focus": "Breeding Farm, salad, medicina, research lab",
+      "tasks": [
+        {
+          "level": 19,
+          "task": "Breeding Farm + Green Thunder (Grintale) + Vegetable Cake (x4 huevos)",
+          "priority": "critical"
+        },
+        {
+          "level": 21,
+          "task": "Tomato Plantation",
+          "priority": "high"
+        },
+        {
+          "level": 24,
+          "task": "Clinic + Medicine Rack + Pal con Medicine Production",
+          "priority": "high"
+        },
+        {
+          "level": 25,
+          "task": "Lettuce Plantation → Salad Farm (+work speed 10min)",
+          "priority": "high"
+        },
+        {
+          "level": 19,
+          "task": "Pal Research Lab (usa ancient pal manuscripts)",
+          "priority": "medium"
+        },
+        {
+          "level": 20,
+          "task": "Dimensional Storage (300 slots de Pals)",
+          "priority": "high"
+        },
+        {
+          "level": 24,
+          "task": "Mining Site (ya puedes salir de bases solo-mineria)",
+          "priority": "medium"
+        }
+      ],
+      "key_pals": [
+        "Grintale",
+        "Broncherry Aqua",
+        "Braloha",
+        "Lifmunk",
+        "Tanzee",
+        "Penking"
+      ],
+      "key_tech": [
+        "Breeding Farm",
+        "Tomato Plantation",
+        "Lettuce Plantation",
+        "Pal Research Lab",
+        "Dimensional Pal Storage",
+        "Egg Incubator",
+        "Mining Site"
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Electricidad & Guild Chest",
+      "range": "Lv 30-45",
+      "focus": "Base electrica, coal+sulfur+quartz, Guild Chest, Logging Site Lv2",
+      "tasks": [
+        {
+          "level": 30,
+          "task": "Primera base electrica con Grisbolt",
+          "priority": "high"
+        },
+        {
+          "level": 33,
+          "task": "Spot Coal+Sulfur: (-238, -382) - 6 coal, 3 sulfur",
+          "priority": "high"
+        },
+        {
+          "level": 35,
+          "task": "Spot Quartz: Mt. Obsidian (-212, 245) - 9-10 nodos",
+          "priority": "medium"
+        },
+        {
+          "level": 37,
+          "task": "Coal Quarry (elimina necesidad de buscar coal)",
+          "priority": "critical"
+        },
+        {
+          "level": 39,
+          "task": "Ore Mining Site Lv2",
+          "priority": "high"
+        },
+        {
+          "level": 41,
+          "task": "Guild Chest (compartir inventario entre bases)",
+          "priority": "critical"
+        },
+        {
+          "level": 43,
+          "task": "Logging Site Lv2 (hardwood)",
+          "priority": "high"
+        },
+        {
+          "level": 45,
+          "task": "Subir base a nivel maximo para +trabajadores y 3a base",
+          "priority": "high"
+        }
+      ],
+      "key_pals": [
+        "Grisbolt",
+        "Orserk",
+        "Anubis",
+        "Sekhmet",
+        "Digtoise",
+        "Tombat",
+        "Wixen"
+      ],
+      "key_tech": [
+        "Coal Mine",
+        "Ore Mining Site II",
+        "Guild Chest",
+        "Logging Site II",
+        "Power Generator",
+        "Weapon Workbench",
+        "Giga Sphere",
+        "Hyper Sphere",
+        "Sulfur Mine"
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Crude Oil & Plasteel",
+      "range": "Lv 46-58",
+      "focus": "Oil Extractor, Plasteel, Plasma Multicutter, Pure Quartz Quarry",
+      "tasks": [
+        {
+          "level": 46,
+          "task": "Sulfur Quarry + Electric Furnace → Plasteel = crude oil + ore",
+          "priority": "critical"
+        },
+        {
+          "level": 50,
+          "task": "Oil Extractor en Sunlit Island (6 nodos de oil)",
+          "priority": "critical"
+        },
+        {
+          "level": 50,
+          "task": "Large Power Generator (eficiencia para extractores)",
+          "priority": "high"
+        },
+        {
+          "level": 51,
+          "task": "Oil Extractor automatico (menos eficiente, mas caro energia)",
+          "priority": "low"
+        },
+        {
+          "level": 52,
+          "task": "Pure Quartz Quarry (desmantela bases de quartz puro)",
+          "priority": "high"
+        },
+        {
+          "level": 54,
+          "task": "Plasma Multicutter (herramienta de farm definitiva)",
+          "priority": "critical"
+        },
+        {
+          "level": 56,
+          "task": "Cryogenic Crusher → transforma spheres viejas en Paldium",
+          "priority": "medium"
+        },
+        {
+          "level": 58,
+          "task": "Metal Detector + preparar ruta de Chromite",
+          "priority": "high"
+        }
+      ],
+      "key_pals": [
+        "Orserk",
+        "Jormuntide Ignis",
+        "Blazamut",
+        "Astegon",
+        "Anubis",
+        "Faleris",
+        "Beakon"
+      ],
+      "key_tech": [
+        "Electric Furnace",
+        "Crude Oil Extractor",
+        "Large Power Generator",
+        "Pure Quartz Quarry",
+        "Plasma Multicutter",
+        "Plasteel",
+        "Plasteel Armor",
+        "Laser Rifle",
+        "Ultra Sphere",
+        "Legendary Sphere"
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "Chromite & Coralum",
+      "range": "Lv 58-65",
+      "focus": "Hexolite, Chromite con Metal Detector, Coralum con breeding",
+      "tasks": [
+        {
+          "level": 58,
+          "task": "Hexolite en playas de Feybreak (NO en isla volcanica)",
+          "priority": "high"
+        },
+        {
+          "level": 58,
+          "task": "Metal Detector + Smokie (+100% yield chromite, hasta +200% condensado)",
+          "priority": "critical"
+        },
+        {
+          "level": 58,
+          "task": "RUTA A chromite: Feybreak o arena de Sylva (3 nodos boss)",
+          "priority": "high"
+        },
+        {
+          "level": 58,
+          "task": "RUTA B chromite: Breeding Silvegis + Pal Disassembler (~9 chromite/Pal)",
+          "priority": "medium"
+        },
+        {
+          "level": 60,
+          "task": "Coralum: Breeding Wassign en isla de Neptilius (~50 coral/run)",
+          "priority": "critical"
+        },
+        {
+          "level": 62,
+          "task": "Coralum schematic → Hexolite Quartz Mine automatico",
+          "priority": "high"
+        },
+        {
+          "level": 60,
+          "task": "Rapirus + Rapirus Cryst → -100% peso de todos los ores",
+          "priority": "medium"
+        }
+      ],
+      "key_pals": [
+        "Smokie",
+        "Silvegis",
+        "Wassign",
+        "Rapirus",
+        "Rapirus Cryst",
+        "Neptilius",
+        "Blazehowl Noct",
+        "Knocklem",
+        "Xenogard",
+        "Menasting"
+      ],
+      "key_tech": [
+        "Metal Detector",
+        "Hexolite",
+        "Gigantic Furnace",
+        "Smokie Harness",
+        "Coralum Ingot",
+        "Hexolite Quartz Mine",
+        "Advanced Workshop",
+        "Pal Disassembly Conveyor"
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "Soralite (True Endgame)",
+      "range": "Lv 66-73",
+      "focus": "Soralite, Ancient Civilization Cores, Thermal Cores, Ancient Technologies",
+      "tasks": [
+        {
+          "level": 60,
+          "task": "Soralite Ingot schematic en Sunbreak Isles",
+          "priority": "critical"
+        },
+        {
+          "level": 60,
+          "task": "Mejor base soralita: (-411, -490) borde acantilado, ~8 nodos",
+          "priority": "high"
+        },
+        {
+          "level": 66,
+          "task": "Ancient Civilization Cores (expediciones)",
+          "priority": "critical"
+        },
+        {
+          "level": 65,
+          "task": "Aquatic Construction Kit (construir sobre agua)",
+          "priority": "medium"
+        },
+        {
+          "level": 70,
+          "task": "Thermal Cores: sacrificar Jetragon (regulares, NO alpha)",
+          "priority": "high"
+        },
+        {
+          "level": 70,
+          "task": "Ancient Technologies (2 work suitabilities a la vez)",
+          "priority": "high"
+        },
+        {
+          "level": 72,
+          "task": "Soralite Quarry (desbloquea mineria automatica)",
+          "priority": "critical"
+        }
+      ],
+      "key_pals": [
+        "Jetragon",
+        "Renoir",
+        "Frostallion",
+        "Frostallion Noct",
+        "Paladius",
+        "Necromus",
+        "Xenolord",
+        "Bastigor",
+        "Azurmane",
+        "Selyne"
+      ],
+      "key_tech": [
+        "Soralite Ingot",
+        "Soralite Quarry",
+        "Aquatic Construction Kit",
+        "Ancient Furnace",
+        "Ancient Workbench",
+        "Ancient Armor",
+        "Ancient Helm",
+        "Ancient Shield",
+        "Ancient Kitchen",
+        "Ancient Farm",
+        "Ancient Clinic",
+        "Ancient Sphere",
+        "Ancient Power Generator",
+        "Ancient Hot Spring"
+      ]
+    },
+    {
+      "phase": 7,
+      "name": "World Tree / Paldium",
+      "range": "Lv 74-80",
+      "focus": "World Tree map, Paldium/Palite, Holy Water farm, Ancient Material Synthesizer",
+      "tasks": [
+        {
+          "level": 74,
+          "task": "Progresar main story → World Tree map",
+          "priority": "critical"
+        },
+        {
+          "level": 74,
+          "task": "World Tree buff: Holy Water o Pal con aura ultra instinct",
+          "priority": "critical"
+        },
+        {
+          "level": 78,
+          "task": "Ancient Material Synthesizer (fabrica TODO en base)",
+          "priority": "critical"
+        },
+        {
+          "level": 76,
+          "task": "Holy Water farm: Selyne/Soluna + Kattress (+80%+80% drop)",
+          "priority": "high"
+        },
+        {
+          "level": 76,
+          "task": "Subterranean City Ruins (cada hora, artifacts/gems/spheres)",
+          "priority": "high"
+        },
+        {
+          "level": 80,
+          "task": "ENDGAME alcanzado - optimizar runs, builds, raids",
+          "priority": "critical"
+        }
+      ],
+      "key_pals": [
+        "Selyne",
+        "Soluna",
+        "Kattress",
+        "Blazamut Ryu",
+        "Bellanoir Libero",
+        "Jormuntide Ignis",
+        "Knocklem Ignis",
+        "Lyleen",
+        "Omascul",
+        "Yakumo"
+      ],
+      "key_tech": [
+        "Ancient Material Synthesizer",
+        "Ancient Hatchery",
+        "Wing Pack",
+        "Plasma Rifle",
+        "Laser Sword",
+        "Beam Launcher",
+        "Ancient Sphere",
+        "Drone Launcher"
+      ]
+    }
+  ]
+}
