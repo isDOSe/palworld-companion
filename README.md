@@ -1,3 +1,5 @@
+<center><img src="https://i.postimg.cc/vThPPSsV/banner.png">
+</center>
 # palworld-companion
 
 > Companion experto de progresión para **Palworld 1.0** — skill de [opencode](https://github.com/anomalyco/opencode) + web interactiva, con base de datos de 251 Pals, árbol tecnológico y guía Lv1→Lv80.
